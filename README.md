@@ -1,2 +1,2 @@
 # Jammmes.github.io
-root
+example landing pages
