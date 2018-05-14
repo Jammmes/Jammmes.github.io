@@ -1,0 +1,830 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"whi",
+				"whiteOnTop"
+			],
+			[
+				"w",
+				"whiteOnTop"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"ce",
+				"cell__item"
+			],
+			[
+				"cel",
+				"celItem"
+			],
+			[
+				"c",
+				"classList"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"co",
+				"copyRight"
+			],
+			[
+				"li",
+				"linksBlock"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"or",
+				"orderForm"
+			],
+			[
+				"ore",
+				"orderForm"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"order",
+				"orderForm"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"bra",
+				"brand"
+			],
+			[
+				"orde",
+				"orderForm"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bran",
+				"brand__item"
+			],
+			[
+				"vi",
+				"videoItem"
+			],
+			[
+				"workProce",
+				"workProcessFont"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wo",
+				"workProcess"
+			],
+			[
+				"work",
+				"workProcess"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"hi",
+				"history"
+			],
+			[
+				"skills_",
+				"skills_tuning"
+			],
+			[
+				"ski",
+				"skillsBlock__title"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"h",
+				"historyBlock"
+			],
+			[
+				"ta",
+				"tablets"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"he",
+				"header__button"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"con",
+				"contanctForm__Input"
+			],
+			[
+				"C",
+				"contactForm"
+			],
+			[
+				"ca",
+				"catalogPage__Item"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"pre",
+				"previewUnit"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"mi",
+				"middleBanner__Img"
+			],
+			[
+				"m",
+				"middleBanner"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"fone",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"footer",
+				"footerComment"
+			],
+			[
+				"foo",
+				"footerComment"
+			],
+			[
+				"re",
+				"reviewUnit"
+			],
+			[
+				"hea",
+				"headerNav"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"r",
+				"raquo"
+			],
+			[
+				"col",
+				"col-lg-offset-1"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"img",
+				"imgICQ"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"B",
+				"BuyIt"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ins",
+				"insta_ico"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"pD",
+				"padding-bottom"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"tit",
+				"titleMenu"
+			],
+			[
+				"bACK",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"mt",
+				"meta\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"sum",
+				"SumCards"
+			],
+			[
+				"ge",
+				"GetStatus"
+			],
+			[
+				"J",
+				"Jack"
+			],
+			[
+				"P",
+				"player"
+			],
+			[
+				"ch",
+				"checkWin"
+			],
+			[
+				"su",
+				"SumCards"
+			],
+			[
+				"Cr",
+				"Cards"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"GetRandomInt"
+			],
+			[
+				"count",
+				"cur_count_black"
+			],
+			[
+				"cu",
+				"cur_count_black"
+			],
+			[
+				"countre",
+				"countred"
+			],
+			[
+				"cou",
+				"countzero"
+			],
+			[
+				"cur",
+				"cur_count_zero"
+			],
+			[
+				"cur_",
+				"cur_count_red"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"les",
+				"Set Syntax: LESS"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/img",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/figure",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/page",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/panel"
+	],
+	"file_history":
+	[
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/panel/panel.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/figure/figure.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/chessBoard/chessBoard.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/cell/cell.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/styles.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/js/hw_js1_lesson5.js",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/chessBoard.html",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/styles/styles.css",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/index.html",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/button/button.scss",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/css/styles.css",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/Материалы/lesson-5/script.js",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less02/материалы/lesson-2/script.js",
+		"/D/GDISK/Web/Course_GB/03_JS_lev1/js1_less05/hw_js1_05/sass/blocks/page/page.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw_New_Way_BEM/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw_New_Way_BEM/sass/blocks/page/page.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw_New_Way_BEM/styles/styles.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/index.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/about/about.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/brand/brand.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/carouselBlock/carouselBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/footer/footer.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/header/header.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/history/history.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/historyBlock/historyBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/kindBlock/kindBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/kindUnit/kindUnit.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/loadMore/loadMore.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/logo/logo.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/order/order.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/orderForm/orderForm.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/progress/progress.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/skills/skills.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/videoItem/videoItem.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/workProcess/workProcess.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw - imorove/sass/blocks/works/works.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/header/header.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/index.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/history/history.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/historyBlock/historyBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/kindBlock/kindBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/kindUnit/kindUnit.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/loadMore/loadMore.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/order/order.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/orderForm/orderForm.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/skills/skills.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/videoItem/videoItem.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/workProcess/workProcess.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/works/works.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/copyRight/copyRight.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/footer/footer.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/carouselBlock/carouselBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/brand/brand.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/about/about.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/button/button.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_03/материалы/примеры для курса html5 css3 урок 3/videoAndAudio/video/использование собственного проигрывателя/with_own_player.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_03/материалы/примеры для курса html5 css3 урок 3/videoAndAudio/video/использование собственного проигрывателя/styles/player.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_03/материалы/примеры для курса html5 css3 урок 3/videoAndAudio/video/использование собственного проигрывателя/js/player.js",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/linksBlock/linksBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/contactBlock/contactBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/socBlock/socBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_04/материалы/примеры для урока 4 курс html5-css3/css grids/9 определение областей/areas.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_04/материалы/примеры для урока 4 курс html5-css3/css grids/9 определение областей/areas.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_05/h5_c3_less_04_hw_доработка/less/index.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/styles/reset.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_c3_less_06_hw/less/index.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_c3_less_06_hw/less/variables.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_c3_less_06_hw/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/примеры использования/fullscreen-background/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_cs_less_01_05_hw_доработка/video_page.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_cs_less_01_05_hw_доработка/less/video-page.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/Материалы/примеры для урока 8 курс html5 css5/flex/6 align-self/пример/align-self-example.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/skillsBlock/skillsBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/Материалы/примеры для урока 8 курс html5 css5/flex/1 flex-wrap/1 align-content при flex-direction row/align-content.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/Материалы/примеры для урока 8 курс html5 css5/flex/3 flex-basis/flex-basis.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/Материалы/примеры для урока 8 курс html5 css5/flex/7 order/order.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/Материалы/примеры для урока 8 курс html5 css5/flex/2 превью товаров/goods-preview.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/примеры использования/fullscreen-background/css/style.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/progressBlock/progressBlock.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/progress/progress.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/page/page.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/nav/nav.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/blocks/link/link.scss",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_08/h5_c3_less_08_hw/sass/index.sass",
+		"/D/GDISK/Web/Practice/Основы программирования (JS)/game_.html",
+		"/D/GDISK/Web/Practice/Основы программирования (JS)/func_.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/styles/styles.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/contacts.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/catalog.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/styles.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/variables.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/contactsForm/contactsForm.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/pages/indexPage.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/productBlock/productUnit/productUnit.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/productBlock/productUnitContainer/productUnitContainer.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/productBlock/productBlock.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/previewBlock/previewUnit/previewUnit.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/previewBlock/previewUnitContainer/previewUnitContainer.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/previewBlock/previewBlock.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/middleBanner/middleBanner.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/headerNav/headerNav.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/button/button.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/pages/catalogPage.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/pages/contactsPage.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/pages/indexPage/indexPage.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/pages/index.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/index.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/footerComment/footerComment.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/reviewUnit/reviewUnit.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/blocks/previewUnit/previewUnit.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/contacts.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_07/h5_c3_less_07_hw/less/catalog.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_cs_less_01_05_hw_доработка/less/styles.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_cs_less_01_05_hw_доработка/less/variables.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/h5_cs_less_01_05_hw_доработка/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/SandBox/animation/animatButton.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/transform/skew-XY/skew.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/animation/зацикливание анимации/cycle.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/animation/пауза и запуск/pause_start.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/animation/типы анимации/types.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/transition(полная анимация меню)/transition.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_04/h5_c3_less_04_hw/less/index.less",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_04/h5_c3_less_04_hw/index.html",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/animation/направление движения/direction.css",
+		"/D/GDISK/Web/Course_GB/02_HTML5_CSS3/h5_c3_less_06/Материалы/примеры для урока 6 курс html5 css3/animation/базовое использование/base.css"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.536742192284,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chessBoard.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

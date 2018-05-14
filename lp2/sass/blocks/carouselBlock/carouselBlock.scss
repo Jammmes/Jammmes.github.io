@@ -1,0 +1,83 @@
+$carouselBlockBGColor:#10c9c3;
+$carouselBlockTextColor:#ffffff;
+$carouselFont:$mainFont;
+
+.carouselBlock{
+    background-color:$carouselBlockBGColor;
+    font-family:$carouselFont;
+    color:$carouselBlockTextColor;
+}
+
+.carouselBlock__quote{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px;
+    text-align: center;
+    padding: 120px 150px 0;
+    height: 225px;
+}
+
+.carouselBlock__author{
+    font-size: 12px;
+    font-weight:500;
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+.carouselBlock_tuning{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//Rewrite Bootstrap class
+.carousel-indicators{
+  top:95%;
+}
+
+
+.carouselBlock_tuning{
+  @include positionOnPage();
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include respondTo(lg-desktops){
+    width: 100%;
+  }
+
+	@include respondTo(small-desktops){
+    width: 100%;
+    
+    .carouselBlock__quote{
+      width: 100%;
+      padding:20px;
+    }
+  }
+
+  @include respondTo(tablets){
+    width: 100%;
+
+    .carouselBlock__quote{
+      width: 100%;
+      padding:10px;
+    }
+  }
+
+  @include respondTo(wide-phones){
+    width: 100%;
+   
+    .carouselBlock__quote{
+      width: 100%;
+      padding:10px;
+      margin: 100px 0;
+    }
+  }
+
+  @include respondTo(phones){
+    display: none;
+  }
+}

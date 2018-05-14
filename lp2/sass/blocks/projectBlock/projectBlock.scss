@@ -1,0 +1,21 @@
+$projectBlockBG:#f6f6f6;
+
+.projectBlock{
+	background-color:$projectBlockBG;
+}
+
+.projectBlock_tuning{
+	@include positionOnPage();
+	padding: 0 0 0 100px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+
+}
+
+.projectBlock__img{
+	background:url("../img/breakfast.png");
+	background-size:cover;
+	width: 683px;
+	height: 570px;
+}

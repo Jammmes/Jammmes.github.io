@@ -1,0 +1,98 @@
+$KindUnitTitleTextColor:#191919;
+$KindUnitTextColor:#787878;
+$kindUnitTitleFont:$mainFont;
+$kindUnitTextFont:$secondFont;
+
+
+
+.kindUnit{}
+
+.kindUnit__img{
+	margin:0 auto 25px ;
+	&:hover{
+		transform: scale(1.1,1.1);
+	}
+}
+
+.kindUnit__img_design{
+	background:url("../img/design.png");
+	width:42px;
+	height:39px;
+}
+
+.kindUnit__img_develop{
+	background:url("../img/develop.png");
+	width:40px;
+	height:40px;
+}
+
+.kindUnit__img_mobile{
+	background:url("../img/mobile.png");
+	width:26px;
+	height:44px;
+}
+
+.kindUnit__img_game{
+	background:url("../img/game.png");
+	width:44px;
+	height:42px;
+}
+
+.kindUnit__img_seo{
+	background:url("../img/seo.png");
+	width:44px;
+	height:44px;
+}
+
+.kindUnit__img_photo{
+	background:url("../img/photo.png");
+	width:44px;
+	height:41px;
+}
+
+.kindUnit__img_graph{
+	background:url("../img/graph.png");
+	width:39px;
+	height:40px;
+}
+
+.kindUnit__img_design{
+	background:url("../img/design.png");
+	width:42px;
+	height:39px;
+}
+
+.kindUnit__img_illustr{
+	background:url("../img/illustr.png");
+	width:43px;
+	height:46px;
+}
+
+
+.kindUnit__title{
+	font-family:$kindUnitTitleFont;
+	color:$KindUnitTitleTextColor;
+	font-size:12px;
+	font-weight:700;
+	line-height:20px;
+	text-align:center;
+	padding-bottom:15px;
+}
+
+.kindUnit__text{
+	font-family:$kindUnitTextFont;
+	color:$KindUnitTextColor;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-align:center;
+}
+
+.kindUnit_tuning{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content:center;
+	width:240px;
+	margin-bottom:40px;
+}

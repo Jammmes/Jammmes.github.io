@@ -1,0 +1,32 @@
+$geoLocationBGColor: #f5f5f5;
+
+.geoLocation{}
+
+.geoLocation_tuning{
+	@include positionOnPage();
+	padding:0 100px 100px;
+	background-color:$geoLocationBGColor;
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	}
+
+	@include respondTo(small-desktops){
+	    width: 100%;
+	}
+
+	@include respondTo(tablets){
+	    width: 100%;
+	}
+
+	@include respondTo(wide-phones){
+	    width: 100%;
+
+	}
+
+	@include respondTo(phones){
+	    width: 100%;
+		display: none;
+	}
+
+}

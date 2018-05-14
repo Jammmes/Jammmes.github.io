@@ -1,0 +1,66 @@
+.brand{}
+
+.brand__item{
+	margin:20px;
+}
+
+.brand__item_handmade{
+	background:url("../img/handmade.png");
+	width:89px;
+	height:65px;
+}
+
+.brand__item_mountain{
+	background:url("../img/mountain.png");
+	width:98px;
+	height:58px;
+}
+.brand__item_collection{
+	background:url("../img/collection.png");
+	width:127px;
+	height:72px;
+}
+.brand__item_mountbike{
+	background:url("../img/mountbike.png");
+	width:96px;
+	height:72px;
+}
+
+.brand_tuning{
+    @include positionOnPage();
+    padding:44px 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+
+    @include respondTo(lg-desktops){
+      width: 100%;
+    }
+    
+    @include respondTo(small-desktops){
+        width: 100%;
+        padding:200px;
+    }
+
+    @include respondTo(tablets){
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    @include respondTo(wide-phones){
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    @include respondTo(phones){
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+    }
+}

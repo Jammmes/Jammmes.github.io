@@ -1,0 +1,29 @@
+.sliderBlock{}
+
+.sliderBlock_tuning{
+	@include positionOnPage();
+	padding:0;
+	height:670px;
+	background:#ffffff;
+}
+
+.sliderBlock__control{
+	width: 20%;
+	top: 107.3%;
+	left:2%;
+	background-image:none;
+	opacity:1;
+	font-family: $mainFont;
+	color:  #1d1d1d;
+	font-size: 12px;
+	font-weight: 900;
+	text-shadow:none;
+	letter-spacing: 1px;
+    word-spacing: 1px;
+    	&:hover{
+    		color:inherit;
+    	}
+    	&:visited{
+    		color:inherit;
+    	}
+}

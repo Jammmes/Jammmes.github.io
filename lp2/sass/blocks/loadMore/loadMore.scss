@@ -1,0 +1,41 @@
+$loadMoreFont:$mainFont;
+$loadMoreTextColor:#8e8e8e;
+$loadMoreBgColor:#f5f5f5;
+
+.loadMore{
+	background-color:$loadMoreBgColor;
+}
+
+.loadMore__title{
+	font-family:$loadMoreFont;
+	color:  $loadMoreTextColor;
+	font-size: 12px;
+	font-weight: 700;
+	text-align:center;
+	letter-spacing:1.1px;
+}
+
+.loadMore_tuning{
+	@include positionOnPage();
+	padding:45px 0;
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	}
+
+	@include respondTo(small-desktops){
+	    width: 100%;
+	}
+
+	@include respondTo(tablets){
+	    width: 100%;
+	}
+
+	@include respondTo(wide-phones){
+	    width: 100%;
+	}
+
+	@include respondTo(phones){
+	    width: 100%;
+	}
+}

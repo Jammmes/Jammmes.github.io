@@ -1,0 +1,15 @@
+.link{
+	color:inherit;
+	&:hover{
+		text-decoration:none;
+	}
+	&:active{
+		text-decoration:none;
+	}
+	&:visited{
+		text-decoration:none;
+	}
+	&:link{
+		text-decoration:none;
+	}
+}

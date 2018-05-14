@@ -1,0 +1,118 @@
+$skillsBGColor:rgb(244,244,243);//#f8f9f9; 
+$skillsImgBgColor:#e9e9e9;
+$skillsFont: $mainFont;
+
+.skills{
+	background-color:$skillsBGColor;
+}
+
+.skills__img{
+	background-color:$skillsImgBgColor;
+	background-image:url("../img/skills.png");
+	background-size:cover;
+	width: 50%;
+	height: 570px;
+}
+
+
+.skills_tuning{
+	@include positionOnPage();
+	display:flex;
+	padding:0;	
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	}
+
+	@include respondTo(small-desktops){
+		display: block;
+		width: 100%;
+
+		.skillsBlock{
+			padding:10px;
+			width: 100%;
+		}
+
+		.progressBlock{
+			width: 100%;
+			padding: 20px 100px;
+		}
+		
+		.skills__img{
+			display: none;
+		}
+		
+		.skillsBlock__title{
+			padding: 20px 100px;
+		}
+	}
+
+	@include respondTo(tablets){
+		display: block;
+		width: 100%;
+
+		.skillsBlock{
+			padding:10px;
+			width: 100%;
+		}
+
+		.progressBlock{
+			width: 100%;
+			padding: 10px 20px;
+		}
+		.skills__img{
+			display: none;
+		}
+		.skillsBlock__title{
+			padding: 10px 20px;
+		}
+	}
+
+	@include respondTo(wide-phones){
+		display: block;
+		width: 100%;
+
+		.skillsBlock{
+			padding:10px;
+			width: 100%;
+		}
+		.progressBlock{
+			width: 100%;
+			padding: 10px 5px;
+		}
+		.skills__img{
+			display: none;
+		}
+		.skillsBlock__title{
+			padding: 10px 5px;
+		}
+
+		.progress{
+			width: 100%;
+		}
+	}
+	
+	@include respondTo(phones){
+		display: block;
+		width: 100%;
+
+		.skillsBlock{
+			padding:10px;
+			width: 100%;
+		}
+		.progressBlock{
+			width: 100%;
+			padding: 10px 5px;
+		}
+		.skills__img{
+			display: none;
+		}
+		.skillsBlock__title{
+			padding: 10px 5px;
+		}
+
+		.progress{
+			width: 100%;
+		}
+	}
+}

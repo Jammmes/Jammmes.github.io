@@ -1,0 +1,150 @@
+$workProcessTitleTextColor:#191919;
+$workProcessTextColor:#787878;
+$workProcessTitleFont:$mainFont;
+$workProcessTextFont:$secondFont;
+$workProcessDarkBG:#f6f6f6;
+
+.workProcess{}
+
+.workProcess__title{
+    font-family: $workProcessTitleFont;
+    color: $workProcessTitleTextColor ;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+    padding: 0 0 41px 0;
+}
+
+.workProcess__text{
+    font-family: $workProcessTextFont;
+    color: $workProcessTextColor;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding:0 320px 0;
+}
+
+.workProcess_tuning{
+    @include positionOnPage();
+    padding:100px 100px 57px;
+
+    @include respondTo(lg-desktops){
+        width: 100%;
+    }
+
+    @include respondTo(small-desktops){
+        width: 100%;
+        padding: 10px;
+ 
+        .workProcess__title{
+            padding: 20px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+  @include respondTo(tablets){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 20px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+    @include respondTo(wide-phones){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 20px 10px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+    @include respondTo(phones){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 20px 10px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+}
+
+.workProcess_tuningDark{
+    background-color: $workProcessDarkBG;
+    @include positionOnPage();
+    padding:100px 100px 57px;
+
+    @include respondTo(lg-desktops){
+        width: 100%;
+    }
+
+    @include respondTo(small-desktops){
+        width: 100%;
+        padding: 10px;
+ 
+        .workProcess__title{
+            padding: 20px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+  @include respondTo(tablets){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 90px 20px 20px 90px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+    @include respondTo(wide-phones){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 20px 10px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+
+    @include respondTo(phones){
+        width: 100%;
+        padding: 10px;
+
+        .workProcess__title{
+            padding: 20px 10px;
+        }
+
+        .workProcess__text{
+            padding: 10px;
+        }
+    }
+}

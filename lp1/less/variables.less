@@ -1,0 +1,91 @@
+//------FONTS
+@font-face {
+  font-family: Georgia;
+  src: url("../fonts/Georgia.ttf");
+}
+@mainFont:Georgia,sans-serif;
+
+
+//------COLORS
+@selColor:#76c38f;
+@headerColor:#290000;
+@mainColor:#660000;
+@lightBackColor:#ffffff;
+@semilightBackColor:#303030;
+@semiDarkBackColor:#2b2b2b;
+
+@darkBackColor:#1d1d1d;
+@semiDarkColor:#222222;
+@darkCircleColor:#333333;
+@lightCircleColor:#6b6b6b;
+
+@lightTextColor:#ffffff;
+@darkTextColor:#333333;
+@semiLightTextColor:#979797;
+@LWSignBackGround:#151515;
+
+
+//-----VARIABLES
+@mainwidth:1200px;
+@adaptiveMargin:30px;
+
+
+
+//------MIXINS
+
+.respond-to(@device, @content) {
+  & when (@device = phones) {
+    @media all and (max-width: 479px) { @content(); }
+  }
+  & when (@device = wide-phones) {
+    @media all and (min-width: 480px) and (max-width: 767px) { @content(); }
+  }
+  & when (@device = tablets) {
+    @media all and (min-width: 768px) and (max-width: 991px) { @content(); }
+  }
+  & when (@device = small-desktops) {
+    @media all and (min-width: 992px) and (max-width: 1199px) { @content(); }
+  }
+  & when (@device = lg-desktops) {
+    @media all and (min-width: 1200px) and (max-width: 1440px) { @content(); }
+  }
+  & when (@device = xlg-desktops) {
+    @media all and (min-width: 1441px) { @content(); }
+  }
+}
+
+.centerLayoutBlocks(){
+  width:@mainwidth;
+  margin:0 auto;
+  padding:0 120px;
+  box-sizing: border-box;
+}
+
+
+.sectionAdaptiveMixin() {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.footerTitles(){
+  font-family: @mainFont;
+  color:  @lightTextColor;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin: 25px 0 30px 0;
+}
+
+.formInputs(){
+  background-color: @semiDarkColor;
+  color: @semiLightTextColor;
+  border: none;
+  border-radius: 10px;
+  font-family: @mainFont;
+}
+
+.footerBlogUnits(){
+  font-family: @mainFont;
+  color: @semiLightTextColor;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+.aboutBlock{}
+
+.aboutBlock__img{
+	background:url("../img/aboutMe.png") no-repeat;
+	height:570px;
+	width:35%;
+}
+
+.aboutBlock_tuning{
+	@include positionOnPage();
+	padding:0;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8dcdd+0,ebecee+100 */
+	background: #d8dcdd; /* Old browsers */
+	background: -moz-linear-gradient(top, #d8dcdd 0%, #ebecee 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d8dcdd 0%,#ebecee 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d8dcdd 0%,#ebecee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8dcdd', endColorstr='#ebecee',GradientType=0 ); /* IE6-9 */
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	}
+
+	@include respondTo(small-desktops){
+	    width: 100%;
+	    .aboutBlock__img{
+	    	display: none;
+	    }
+	}
+
+	@include respondTo(tablets){
+	    width: 100%;
+	    .aboutBlock__img{
+	    	display: none;
+	    }
+
+	}
+
+	@include respondTo(wide-phones){
+	    width: 100%;
+	    .aboutBlock__img{
+	    	display: none;
+	    }
+	}
+
+	@include respondTo(phones){
+	    width: 100%;
+	    .aboutBlock__img{
+	    	display: none;
+	    }
+	}
+}

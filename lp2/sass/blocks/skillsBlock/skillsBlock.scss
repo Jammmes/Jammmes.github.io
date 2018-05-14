@@ -1,0 +1,16 @@
+$skillsTextColor:black;
+
+.skillsBlock{}
+
+.skillsBlock__title{
+	font-family: $mainFont;
+	color:  $skillsTextColor;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+
+.skillsBlock_tuning{
+	padding: 160px 0 120px 100px;
+	width: 50%;
+}

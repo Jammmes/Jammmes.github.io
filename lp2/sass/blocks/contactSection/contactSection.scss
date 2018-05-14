@@ -1,0 +1,64 @@
+$contactSectionBGColor:#f5f5f5;
+
+
+.contactSection{
+	background-color:$contactSectionBGColor;
+}
+
+
+.contactSection_tuning{
+	@include positionOnPage();
+	padding:100px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	    flex-direction: column;
+	    .infoBlock_tuning{
+	    	width: 100%;
+	    }
+	}
+
+	@include respondTo(small-desktops){
+	    width: 100%;
+	    flex-direction: column;
+	    .infoBlock_tuning{
+	    	width: 100%;
+	    }
+	}
+
+	@include respondTo(tablets){
+	    width: 100%;
+	    flex-direction: column;
+	    .infoBlock_tuning{
+	    	width: 100%;
+	    }
+	}
+
+	@include respondTo(wide-phones){
+	    width: 100%;
+	    flex-direction: column;
+
+	    .infoBlock_tuning{
+	    	width: 100%;
+	    }
+	    .infoBlock__lbl{
+	    	float: none;
+	    }
+
+	}
+
+	@include respondTo(phones){
+	    width: 100%;
+	    flex-direction: column;
+
+	    .infoBlock_tuning{
+	    	width: 100%;
+	    }
+	    .infoBlock__lbl{
+	    	float: none;
+	    }
+	}
+}

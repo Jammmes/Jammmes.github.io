@@ -1,0 +1,22 @@
+$progressTextColor:#171717;
+
+.progressBlock{}
+
+.progressBlock__title{
+	font-family: $mainFont;
+	color:  $progressTextColor;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.9px;
+	float:left;
+	margin:0 15px 0 0;
+}
+
+.progressBlock__value{
+	font-family: $mainFont;
+	color:  $progressTextColor;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+}
+

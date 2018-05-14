@@ -1,0 +1,25 @@
+$copyRightTitleColor:#ffffff;
+$copyRightTextColor:#bcbcbc;
+
+.copyRight{
+
+}
+
+.copyRight__title{
+	color: $copyRightTitleColor;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 0 27px 0;
+}
+
+.copyRight__text{
+	color:$copyRightTextColor ;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0 0 5px 0;
+}
+
+.copyRight_tuning{
+	padding:100px 225px 0 100px;
+	box-sizing:border-box;
+}

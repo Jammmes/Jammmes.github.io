@@ -1,0 +1,60 @@
+$btnBGColor:#10c9c3;
+$btnTextColor:white;
+
+.button{
+	border:none;
+	background-color:$btnBGColor;
+	display:block;
+	color:$btnTextColor;
+	font-family:$mainFont;
+	
+	&:hover{
+		color:inherit;
+	}
+}
+
+.button_videoImg{
+	position: absolute;
+	top:42%;
+	left:47%;
+	z-index:1000;
+	width:85px;
+	height:85px;
+	border-radius:50%;
+	opacity:0.5;
+
+	&:hover{
+		border:2px solid $btnTextColor;
+		opacity: 1;
+		
+		.button__img{
+			transform: scale(2,1.5);
+		}
+	}
+}
+
+.button_headerTuning{
+	width:180px;
+	height:54px;
+}
+
+.button_videoTxt{
+	position: absolute;
+	top:42%;
+	left:47%;
+	z-index:1000;
+	width:85px;
+	height:85px;
+	border-radius:50%;
+	opacity:0.5;
+
+	&:hover{
+		border:2px solid $btnTextColor;
+		opacity: 1;
+	}
+}
+
+.button__input{
+	background-color:transparent;
+	border:none;
+}

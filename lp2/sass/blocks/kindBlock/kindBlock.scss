@@ -1,0 +1,36 @@
+$kindBlockBGColor:#f5f5f5;
+
+.kindBlock{
+	background-color:$kindBlockBGColor;
+}
+
+.kindBlock_tuning{
+    @include positionOnPage();
+    padding:90px 100px 50px 100px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:space-around;
+
+    @include respondTo(lg-desktops){
+      width: 100%;
+    }
+
+	@include respondTo(small-desktops){
+        width: 100%;
+        padding:200px;
+    }
+
+    @include respondTo(tablets){
+        width: 100%;
+    }
+
+    @include respondTo(wide-phones){
+        width: 100%;
+    }
+
+    @include respondTo(phones){
+        width: 100%;
+    }
+}

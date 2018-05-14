@@ -1,0 +1,46 @@
+$progressBgColor:#d8d8d8;
+$progressValueColor:#10c9c3;
+
+.progress{
+	background-color:$progressBgColor;
+}
+
+.progress_tuning{
+	width: 500px;
+	height: 3px;
+	margin: 18px 0 38px 0;
+}
+
+.progress__value{
+	background-color:$progressValueColor;
+	float: left;
+	height: 100%;
+	width:50%;
+}
+
+.progress__empty{
+	float: right;
+	height: 100%;
+	width:50%;
+}
+
+.progress__value_75{
+	width:75%;
+}
+.progress__value_90{
+	width:90%;
+}
+.progress__value_65{
+	width:65%;
+}
+
+.progress__empty_25{
+	width:25%;
+}
+.progress__empty_10{
+	width:10%;
+}
+
+.progress__empty_35{
+	width:35%;
+}

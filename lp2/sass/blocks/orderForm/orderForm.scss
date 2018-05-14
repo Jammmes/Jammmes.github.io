@@ -1,0 +1,119 @@
+$inputFont:$secondFont;
+$inputTextColor:#787878;
+
+.orderForm{}
+
+.orderForm__input{
+	height:48px;
+	border:none;
+	font-family: $inputFont;
+	color: $inputTextColor ;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	padding:0 0 0 20px;
+	width:100%
+}
+
+.orderForm__textarea{
+	width:100%;
+	resize:none;
+	border:none;
+	font-family: $inputFont;
+	color: $inputTextColor; 
+	padding:20px 0 0 20px;
+	grid-area:comment;
+}
+
+.orderForm__input_name{
+	grid-area:name;
+}
+
+.orderForm__input_email{
+	grid-area:email;
+}
+
+.orderForm__input_title{
+	grid-area:title;
+}
+
+.orderForm__button{
+	width:180px;
+	height:54px;
+	grid-area:button;
+    margin: 25px 0 0;
+    justify-self:start;
+}
+
+.orderForm_tuning{
+    display:grid;
+    width:670px;
+    justify-items: center;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-template-areas:
+    "name . email"
+    "title title title"
+    "comment comment comment"
+    " button . ." ;
+
+    @include respondTo(lg-desktops){
+        width: 100%;
+        rid-row-gap: 20px;
+        grid-template-columns: 1fr;
+         grid-template-areas:
+        "name"
+        "email"
+        "title"
+        "comment"
+        "button"
+    }
+
+	@include respondTo(small-desktops){
+        width: 100%;
+        rid-row-gap: 20px;
+        grid-template-columns: 1fr;
+         grid-template-areas:
+        "name"
+        "email"
+        "title"
+        "comment"
+        "button"
+    }
+
+    @include respondTo(tablets){
+        width: 100%;
+        rid-row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "name"
+        "email"
+        "title"
+        "comment"
+        "button"
+    }
+
+    @include respondTo(wide-phones){
+        width: 100%;
+        rid-row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "name"
+        "email"
+        "title"
+        "comment"
+        "button"
+    }
+
+    @include respondTo(phones){
+        width: 100%;
+        rid-row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "name"
+        "email"
+        "title"
+        "comment"
+        "button"
+    }
+}

@@ -1,0 +1,34 @@
+$navItemTextColor:#1d1d1d;
+$navItemBGColor:inherit;
+$navLinkActiveColor:#10c9c3;
+
+.nav{}
+
+.nav__item{
+	float:left;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 24px;
+	letter-spacing: 0.8px;
+	padding:0 15px;
+	font-family:$mainFont;
+	color:$navItemTextColor;
+
+}
+
+.nav__link{
+	display:inline-block;
+	color:inherit;
+	&:hover{
+		color:$navLinkActiveColor;
+	}
+}
+
+.nav__item_active{
+	color:$navLinkActiveColor;
+}
+
+.nav_headerTuning{
+	float:right;
+	margin-top:38px;
+}

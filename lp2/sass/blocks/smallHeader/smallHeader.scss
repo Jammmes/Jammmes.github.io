@@ -1,0 +1,61 @@
+.smallHeader{}
+
+.smallHeader_tuning{
+	@include positionOnPage();
+	height:100px;
+
+	@include respondTo(lg-desktops){
+		width: 100%;
+	}
+
+	@include respondTo(small-desktops){
+	    width: 100%;
+	}
+
+	@include respondTo(tablets){
+	    width: 100%;
+	    height: 100%;
+	}
+
+	@include respondTo(wide-phones){
+	    width: 100%;
+	    height: 100%;
+		
+		.nav_headerTuning{
+			float: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content:middle;
+			text-align: center;
+		}
+
+		.logo_headerTuning{
+			float: none;
+			margin: 10px auto;
+		}
+	}
+
+	@include respondTo(phones){
+	    width: 100%;
+	    height: 100%;
+		
+		.nav_headerTuning{
+			float: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content:middle;
+			text-align: center;
+		}
+
+		.logo_headerTuning{
+			float: none;
+			margin: 10px auto;
+		}
+	}
+}
