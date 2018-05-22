@@ -1,87 +1,83 @@
 $aboutFont:$secondFont;
 $aboutTextColor:#787878;
 $aboutDarkenBG:transparent;
-
-.about{}
-
-.about__title{
-	font-size: 30px;
-	font-weight: 700;
-}
-.about__title_tuningCenter{
-	text-align:center;
+.about__title {
+    font-size: 30px;
+    font-weight: 700;
 }
 
-.about__title_tuningLeft{
-	text-align:left;
+.about__title_tuningCenter {
+    text-align: center;
 }
 
-.about__text{
-	font-family: $aboutFont;
-	color:$aboutTextColor ;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.about__text_tuningCenter{
-	margin: 25px 0;
-	text-align: center;
+.about__title_tuningLeft {
+    text-align: left;
 }
 
-.about__text_tuningLeft{
-	margin: 25px 0;
-	text-align:left;
+.about__text {
+    font-family: $aboutFont;
+    color: $aboutTextColor;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-
-.about__sign{
-	background:url("../img/signature.png");
-}
-.about__sign_tuningCenter{
-	width:223px;
-	height:57px;
-	margin:30px auto 50px;
+.about__text_tuningCenter {
+    margin: 25px 0;
+    text-align: center;
 }
 
-.about__sign_tuningLeft{
-	width:223px;
-	height:57px;
-	margin:30px 0 50px;
+.about__text_tuningLeft {
+    margin: 25px 0;
+    text-align: left;
 }
 
-.about_meTuning{
-	background-color:$aboutDarkenBG;
-	width:34%;
-	padding:130px 130px 0;
+.about__sign {
+    background: url("../img/signature.png");
 }
 
-.about_tuning{
-	@include positionOnPage();
-	padding:90px 370px 50px;
+.about__sign_tuningCenter {
+    width: 223px;
+    height: 57px;
+    margin: 30px auto 50px;
+}
 
+.about__sign_tuningLeft {
+    width: 223px;
+    height: 57px;
+    margin: 30px 0 50px;
+}
 
-	@include respondTo(lg-desktops){
-		width: 100%;
-	}
+.about_meTuning {
+    background-color: $aboutDarkenBG;
+    width: 34%;
+    padding: 130px 130px 0;
+}
 
-	@include respondTo(small-desktops){
-		width: 100%;
-		margin: 20px auto;
-		padding: 20px;
-	}
-	@include respondTo(tablets){
-		width: 100%;
-		margin: 20px auto;
-		padding: 20px;
-	}
-	@include respondTo(wide-phones){
-		width: 100%;
-		margin: 20px auto;
-		padding: 20px;
-	}
-	@include respondTo(phones){
-		width: 100%;
-		margin: 20px auto;
-		padding: 20px;
-	}
+.about_tuning {
+    @include positionOnPage();
+    padding: 90px 370px 50px;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    @include respondTo(phones) {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
 }
