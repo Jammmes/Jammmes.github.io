@@ -1548,7 +1548,7 @@
 @media all and (min-width: 1200px) and (max-width: 1440px) {
   .orderForm_tuning {
     width: 100%;
-    rid-row-gap: 20px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "email" "title" "comment" "button";
   }
@@ -1556,7 +1556,7 @@
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .orderForm_tuning {
     width: 100%;
-    rid-row-gap: 20px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "email" "title" "comment" "button";
   }
@@ -1564,7 +1564,7 @@
 @media all and (min-width: 768px) and (max-width: 991px) {
   .orderForm_tuning {
     width: 100%;
-    rid-row-gap: 20px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "email" "title" "comment" "button";
   }
@@ -1572,7 +1572,7 @@
 @media all and (min-width: 480px) and (max-width: 767px) {
   .orderForm_tuning {
     width: 100%;
-    rid-row-gap: 20px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "email" "title" "comment" "button";
   }
@@ -1580,7 +1580,7 @@
 @media all and (max-width: 479px) {
   .orderForm_tuning {
     width: 100%;
-    rid-row-gap: 20px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "email" "title" "comment" "button";
   }
