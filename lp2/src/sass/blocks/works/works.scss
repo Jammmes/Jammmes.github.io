@@ -1,102 +1,115 @@
-$hoverWorkBGColor: rgba(37,37,37, 1);//#252525;
+$hoverWorkBGColor: rgba(37, 37, 37, 1); //#252525;
 $evenWorkBGolor:#dddddd;
 $oddWorkBGColor:#838383;
+.works {}
 
-.works{}
-
-.works__oneWork{
-  width: 341px;
-  height: 300px;
-}
-
-
-.works__oneWork_1D{
-  @include hoverBackground(url("../img/1.png"),url("../img/look1.png"))
+.works__oneWork {
+    width: 341px;
+    height: 300px;
 }
 
-.works__oneWork_1C{
-  @include hoverBackground(url("../img/1.png"),url("../img/look2.png"))
+.works__oneWork_1D {
+    @include hoverBackground(url("../img/1.png"),
+    url("../img/look1.png"))
 }
 
-.works__oneWork_2D{
-  @include hoverBackground(url("../img/2.png"),url("../img/look1.png"))
-}
-.works__oneWork_2C{
-  @include hoverBackground(url("../img/2.png"),url("../img/look2.png"))
+.works__oneWork_1C {
+    @include hoverBackground(url("../img/1.png"),
+    url("../img/look2.png"))
 }
 
-.works__oneWork_3D{
-  @include hoverBackground(url("../img/3.png"),url("../img/look1.png"))
-}
-.works__oneWork_3C{
-  @include hoverBackground(url("../img/3.png"),url("../img/look2.png"))
+.works__oneWork_2D {
+    @include hoverBackground(url("../img/2.png"),
+    url("../img/look1.png"))
 }
 
-.works__oneWork_4D{
-  @include hoverBackground(url("../img/4.png"),url("../img/look1.png"))
-}
-.works__oneWork_4C{
-  @include hoverBackground(url("../img/4.png"),url("../img/look2.png"))
+.works__oneWork_2C {
+    @include hoverBackground(url("../img/2.png"),
+    url("../img/look2.png"))
 }
 
-.works__oneWork_5D{
-  @include hoverBackground(url("../img/5.png"),url("../img/look1.png"))
-}
-.works__oneWork_5C{
-  @include hoverBackground(url("../img/5.png"),url("../img/look2.png"))
+.works__oneWork_3D {
+    @include hoverBackground(url("../img/3.png"),
+    url("../img/look1.png"))
 }
 
-.works__oneWork_6D{
-  @include hoverBackground(url("../img/6.png"),url("../img/look1.png"))
-}
-.works__oneWork_6C{
-  @include hoverBackground(url("../img/6.png"),url("../img/look2.png"))
+.works__oneWork_3C {
+    @include hoverBackground(url("../img/3.png"),
+    url("../img/look2.png"))
 }
 
-.works__oneWork_7D{
-  @include hoverBackground(url("../img/7.png"),url("../img/look1.png"))
-}
-.works__oneWork_7C{
-  @include hoverBackground(url("../img/7.png"),url("../img/look2.png"))
+.works__oneWork_4D {
+    @include hoverBackground(url("../img/4.png"),
+    url("../img/look1.png"))
 }
 
-.works__oneWork_8D{
-  @include hoverBackground(url("../img/8.png"),url("../img/look1.png"))
-}
-.works__oneWork_8C{
-  @include hoverBackground(url("../img/8.png"),url("../img/look2.png"))
+.works__oneWork_4C {
+    @include hoverBackground(url("../img/4.png"),
+    url("../img/look2.png"))
 }
 
+.works__oneWork_5D {
+    @include hoverBackground(url("../img/5.png"),
+    url("../img/look1.png"))
+}
 
-.works_tuning{
+.works__oneWork_5C {
+    @include hoverBackground(url("../img/5.png"),
+    url("../img/look2.png"))
+}
+
+.works__oneWork_6D {
+    @include hoverBackground(url("../img/6.png"),
+    url("../img/look1.png"))
+}
+
+.works__oneWork_6C {
+    @include hoverBackground(url("../img/6.png"),
+    url("../img/look2.png"))
+}
+
+.works__oneWork_7D {
+    @include hoverBackground(url("../img/7.png"),
+    url("../img/look1.png"))
+}
+
+.works__oneWork_7C {
+    @include hoverBackground(url("../img/7.png"),
+    url("../img/look2.png"))
+}
+
+.works__oneWork_8D {
+    @include hoverBackground(url("../img/8.png"),
+    url("../img/look1.png"))
+}
+
+.works__oneWork_8C {
+    @include hoverBackground(url("../img/8.png"),
+    url("../img/look2.png"))
+}
+
+.works_tuning {
     @include positionOnPage();
-    padding:0;
-    display:flex;
-    flex-direction:row;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-    @include respondTo(lg-desktops){
-      width: 100%;
-    }
-
-    @include respondTo(small-desktops){
+    @include respondTo(lg-desktops) {
         width: 100%;
-        padding:0 200px;
     }
-
-    @include respondTo(tablets){
+    @include respondTo(small-desktops) {
         width: 100%;
-        padding:0 200px;
     }
-
-    @include respondTo(wide-phones){
+    @include respondTo(tablets) {
+        width: 100%;
+    }
+    @include respondTo(wide-phones) {
         width: 100%;
         flex-direction: column;
     }
-
-    @include respondTo(phones){
+    @include respondTo(phones) {
         width: 100%;
         flex-direction: column;
     }

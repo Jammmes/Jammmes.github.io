@@ -1,49 +1,63 @@
-.historyBlock{}
-
-.historyBlock__img{
-	float:left;
+.historyBlock__img {
+    float: left;
 }
 
-.historyBlock__value{
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 30px
+.historyBlock__value {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px
 }
 
-.historyBlock__desc{
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 22px
+.historyBlock__desc {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px
 }
 
-
-.historyBlock_tuning{
-	width:255px;
-	padding: 94px 0;
+.historyBlock_tuning {
+    width: 255px;
+    padding: 94px 0;
+    @include respondTo(lg-desktops) {
+        //
+    }
+    @include respondTo(small-desktops) {
+        padding: 24px 0;
+    }
+    @include respondTo(tablets) {
+        padding: 24px 0;
+    }
+    @include respondTo(wide-phones) {
+        padding: 24px 0;
+    }
+    @include respondTo(phones) {
+        padding: 24px 0;
+    }
 }
 
+.historyBlock__img_project {
+    background: url("../img/project.png");
+    width: 40px;
+    height: 36px;
+    margin: 8px 27px 0 0;
+}
 
-.historyBlock__img_project{
-	background:url("../img/project.png");
-	width:40px;
-	height:36px;
-	margin:8px 27px 0 0;
+.historyBlock__img_hours {
+    background: url("../img/hours.png");
+    width: 40px;
+    height: 40px;
+    margin: 8px 27px 0 0;
 }
-.historyBlock__img_hours{
-	background:url("../img/hours.png");
-	width:40px;
-	height:40px;
-	margin:8px 27px 0 0;
+
+.historyBlock__img_feedback {
+    background: url("../img/feedback.png");
+    width: 44px;
+    height: 41px;
+    margin: 8px 27px 0 0;
 }
-.historyBlock__img_feedback{
-	background:url("../img/feedback.png");
-	width:44px;
-	height:41px;
-	margin:8px 27px 0 0;
-}
-.historyBlock__img_happy{
-	background:url("../img/happy.png");
-	width:40px;
-	height:36px;
-	margin:8px 27px 0 0;	
+
+.historyBlock__img_happy {
+    background: url("../img/happy.png");
+    width: 40px;
+    height: 36px;
+    margin: 8px 27px 0 0;
 }
