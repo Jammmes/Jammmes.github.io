@@ -1,76 +1,86 @@
 $footerBGColor:#141414;
 $footerFont:$secondFont;
-$footerTextColor:  #bcbcbc;
-
-
-.footer{
-	background-color:$footerBGColor;
-	font-family:$footerFont;
-	color:$footerTextColor;
+$footerTextColor: #bcbcbc;
+.footer {
+    background-color: $footerBGColor;
+    font-family: $footerFont;
+    color: $footerTextColor;
 }
 
-.footer_tuning{
+.footer_tuning {
     @include positionOnPage();
     height: 284px;
-    padding:0;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    box-sizing:border-box;
-
-    @include respondTo(lg-desktops){
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    @include respondTo(lg-desktops) {
         width: 100%;
         height: 100%;
     }
-
-	@include respondTo(small-desktops){
+    @include respondTo(small-desktops) {
         width: 100%;
         height: 100%;
- 
-        .copyRight, .contactBlock, .linksBlock{
-    	   padding:10px;
-    	   margin: 10px;
-    	   width: 100%;
-    	   text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .copyRight,
+        .contactBlock,
+        .linksBlock {
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 5px;
         }
     }
-
-    @include respondTo(tablets){
+    @include respondTo(tablets) {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .copyRight,
+        .contactBlock,
+        .linksBlock {
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    }
+    @include respondTo(wide-phones) {
         width: 100%;
         height: 100%;
         flex-direction: column;
-        
-        .copyRight, .contactBlock, .linksBlock{
-    	   padding:10px;
-    	   margin: 10px 0;
-    	   width: 100%;
-    	   text-align: center;
+        .copyRight,
+        .contactBlock,
+        .linksBlock {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 5px;
         }
     }
-
-    @include respondTo(wide-phones){
+    @include respondTo(phones) {
         width: 100%;
         height: 100%;
         flex-direction: column;
-        
-        .copyRight, .contactBlock, .linksBlock{
-    	   padding:10px;
-    	   margin: 10px 0;
-    	   width: 100%;
-    	   text-align: center;
-        }
-    }
-
-    @include respondTo(phones){
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        
-        .copyRight, .contactBlock, .linksBlock{
-    	   padding:10px;
-    	   margin: 10px 0;
-    	   width: 100%;
-    	   text-align: center;
+        .copyRight,
+        .contactBlock,
+        .linksBlock {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 5px;
         }
     }
 }

@@ -1280,42 +1280,63 @@
   @media all and (min-width: 992px) and (max-width: 1199px) {
     .footer_tuning {
       width: 100%;
-      height: 100%; }
-      .footer_tuning .copyRight, .footer_tuning .contactBlock, .footer_tuning .linksBlock {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .footer_tuning .copyRight,
+      .footer_tuning .contactBlock,
+      .footer_tuning .linksBlock {
         padding: 10px;
         margin: 10px;
-        width: 100%;
-        text-align: center; } }
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 5px; } }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .footer_tuning {
       width: 100%;
       height: 100%;
-      flex-direction: column; }
-      .footer_tuning .copyRight, .footer_tuning .contactBlock, .footer_tuning .linksBlock {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .footer_tuning .copyRight,
+      .footer_tuning .contactBlock,
+      .footer_tuning .linksBlock {
         padding: 10px;
         margin: 10px 0;
-        width: 100%;
-        text-align: center; } }
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 5px; } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .footer_tuning {
       width: 100%;
       height: 100%;
       flex-direction: column; }
-      .footer_tuning .copyRight, .footer_tuning .contactBlock, .footer_tuning .linksBlock {
+      .footer_tuning .copyRight,
+      .footer_tuning .contactBlock,
+      .footer_tuning .linksBlock {
         padding: 10px;
         margin: 10px 0;
         width: 100%;
-        text-align: center; } }
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 5px; } }
   @media all and (max-width: 479px) {
     .footer_tuning {
       width: 100%;
       height: 100%;
       flex-direction: column; }
-      .footer_tuning .copyRight, .footer_tuning .contactBlock, .footer_tuning .linksBlock {
+      .footer_tuning .copyRight,
+      .footer_tuning .contactBlock,
+      .footer_tuning .linksBlock {
         padding: 10px;
         margin: 10px 0;
         width: 100%;
-        text-align: center; } }
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 5px; } }
 
 .copyRight__title {
   color: #ffffff;
