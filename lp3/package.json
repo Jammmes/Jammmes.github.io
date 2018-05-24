@@ -1,7 +1,7 @@
 {
     "name": "LP",
     "version": "1.0.0",
-    "description": "Landing page Piroll",
+    "description": "Landing page Rus",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
