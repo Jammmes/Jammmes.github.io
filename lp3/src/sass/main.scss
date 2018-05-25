@@ -1,0 +1,47 @@
+//MIXINS
+@mixin respondTo($_media) {
+    @if $_media==phones {
+        @media all and (max-width: 479px) {
+            @content;
+        }
+    }
+    @else if $_media==wide-phones {
+        @media all and (min-width: 480px) and (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $_media==tablets {
+        @media all and (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $_media==small-desktops {
+        @media all and (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $_media==lg-desktops {
+        @media all and (min-width: 1200px) and (max-width: 1440px) {
+            @content;
+        }
+    }
+    @else if $_media==xlg-desktops {
+        @media all and (min-width: 1441px) and (max-width: 1920px) {
+            @content;
+        }
+    }
+}
+
+@mixin positionOnPage() {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+// IMPORT
+@import "blocks/page/page";
+@import "blocks/header/header";
+@import "blocks/historyUnit/historyUnit";
+@import "blocks/historyBlock/historyBlock";

@@ -1,0 +1,35 @@
+.historyUnit {
+    width: 251px;
+    height: 160px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.historyUnit__logo {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -40px;
+}
+
+.historyUnit__logo_service {
+    background: url(/img/diamond.png);
+}
+
+.historyUnit__logo_project {
+    background: url(/img/diamond.png);
+}
+
+.historyUnit__logo_client {
+    background: url(/img/diamond.png);
+}
+
+.historyUnit__count {
+    font-size: 48px;
+}
+
+.historyUnit__comment {}

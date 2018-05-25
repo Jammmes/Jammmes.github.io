@@ -24,7 +24,7 @@ var pngquant = require('imagemin-pngquant')
 
 // настраиваем компиляцию scss в css с обновлением браузера
 gulp.task('sass-compile', function() {
-    return gulp.src(['src/sass/index.scss'])
+    return gulp.src(['src/sass/main.scss'])
         .pipe(sass())
         .pipe(flatten())
         .pipe(gulp.dest('src/css'))
@@ -38,7 +38,7 @@ gulp.task('watch', ['copyImg', 'copyFonts', 'copyVideo', 'browserSync'], functio
     // компиляция scss, сборка и минификация css и js  
     gulp.watch('src/sass/**/*.scss', ['sass-compile']);
     gulp.watch('src/css/*.css', ['useref']);
-    gulp.watch('app/js/*.js', ['useref']);
+    gulp.watch('src/js/*.js', ['useref']);
 });
 
 //настраиваем обновление браузера
