@@ -1,37 +1,129 @@
-.headerWrap {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 810px;
-    background: rgba(103, 58, 183, 0.2);
-}
-
-.header_tuning {
-    @include positionOnPage();
-    color: white;
-    height: 810px;
-    width: 100%;
-    padding: 0;
-}
-
-.headerWrap__mainTitle {
-    font-size: 48px;
-    padding: 200px 0 50px;
-    margin: 0 240px;
-    font-family: $mainFont;
-}
-
-.headerWrap__resumeText {
-    font-size: 24px;
-    padding: 0 0 70px 0;
-    line-height: 36px;
-    margin: 0 240px;
-    font-family: $secondFont;
-}
-
-.header__video {
-    width: 100%;
-    height: 100%;
-}
+    .headerWrap {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 810px;
+        // background: rgba(158, 158, 158, 0.6);
+        width: 75%;
+        left: 12.5%;
+    }
+    
+    .header_tuning {
+        @include positionOnPage();
+        color: white;
+        height: 810px;
+        width: 100%;
+        padding: 0;
+        @include respondTo(lg-desktops) {
+            height: 100%;
+            .header__video {
+                display: none;
+            }
+            .headerWrap {
+                background: rgba(103, 58, 183, 1);
+                position: static;
+                height: 100%;
+                width: 100%;
+            }
+            .headerWrap__mainTitle {
+                padding: 70px 0 50px;
+                margin: 0 80px;
+            }
+            .headerWrap__resumeText {
+                margin: 0 70px;
+            }
+            .historyBlock {
+                padding-bottom: 50px;
+            }
+        }
+        @include respondTo(small-desktops) {
+            height: 100%;
+            .header__video {
+                display: none;
+            }
+            .headerWrap {
+                background: rgba(103, 58, 183, 1);
+                position: static;
+                height: 100%;
+                width: 100%;
+            }
+            .headerWrap__mainTitle {
+                padding: 70px 0 50px;
+                margin: 0 80px;
+            }
+            .headerWrap__resumeText {
+                margin: 0 70px;
+            }
+            .historyBlock {
+                padding-bottom: 50px;
+            }
+        }
+        @include respondTo(tablets) {
+            height: 100%;
+            .header__video {
+                display: none;
+            }
+            .headerWrap {
+                background: rgba(103, 58, 183, 1);
+                position: static;
+                height: 100%;
+                width: 100%;
+            }
+            .headerWrap__mainTitle {
+                padding: 70px 0 50px;
+                margin: 0 80px;
+            }
+            .headerWrap__resumeText {
+                margin: 0 70px;
+            }
+            .historyBlock {
+                padding-bottom: 50px;
+            }
+        }
+        @include respondTo(wide-phones) {
+            height: 100%;
+            .header__video {
+                display: none;
+            }
+            .headerWrap {
+                background: rgba(103, 58, 183, 1);
+                position: static;
+                height: 100%;
+                width: 100%;
+            }
+            .headerWrap__mainTitle {
+                padding: 70px 0 50px;
+                margin: 0 80px;
+            }
+            .headerWrap__resumeText {
+                margin: 0 70px;
+                font-size: 44px;
+                line-height: 50px;
+            }
+            .historyBlock {
+                padding-bottom: 50px;
+            }
+        }
+    }
+    
+    .headerWrap__mainTitle {
+        font-size: 48px;
+        padding: 200px 0 50px;
+        margin: 0 240px;
+        font-family: $mainFont;
+    }
+    
+    .headerWrap__resumeText {
+        font-size: 24px;
+        padding: 0 0 70px 0;
+        line-height: 36px;
+        margin: 0 240px;
+        font-family: $secondFont;
+    }
+    
+    .header__video {
+        width: 100%;
+        height: 100%;
+    }

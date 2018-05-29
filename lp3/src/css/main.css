@@ -13,7 +13,8 @@
   align-items: center;
   text-align: center;
   height: 810px;
-  background: rgba(103, 58, 183, 0.2); }
+  width: 75%;
+  left: 12.5%; }
 
 .header_tuning {
   width: 1500px;
@@ -25,6 +26,76 @@
   height: 810px;
   width: 100%;
   padding: 0; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .header_tuning {
+      height: 100%; }
+      .header_tuning .header__video {
+        display: none; }
+      .header_tuning .headerWrap {
+        background: #673ab7;
+        position: static;
+        height: 100%;
+        width: 100%; }
+      .header_tuning .headerWrap__mainTitle {
+        padding: 70px 0 50px;
+        margin: 0 80px; }
+      .header_tuning .headerWrap__resumeText {
+        margin: 0 70px; }
+      .header_tuning .historyBlock {
+        padding-bottom: 50px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .header_tuning {
+      height: 100%; }
+      .header_tuning .header__video {
+        display: none; }
+      .header_tuning .headerWrap {
+        background: #673ab7;
+        position: static;
+        height: 100%;
+        width: 100%; }
+      .header_tuning .headerWrap__mainTitle {
+        padding: 70px 0 50px;
+        margin: 0 80px; }
+      .header_tuning .headerWrap__resumeText {
+        margin: 0 70px; }
+      .header_tuning .historyBlock {
+        padding-bottom: 50px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .header_tuning {
+      height: 100%; }
+      .header_tuning .header__video {
+        display: none; }
+      .header_tuning .headerWrap {
+        background: #673ab7;
+        position: static;
+        height: 100%;
+        width: 100%; }
+      .header_tuning .headerWrap__mainTitle {
+        padding: 70px 0 50px;
+        margin: 0 80px; }
+      .header_tuning .headerWrap__resumeText {
+        margin: 0 70px; }
+      .header_tuning .historyBlock {
+        padding-bottom: 50px; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .header_tuning {
+      height: 100%; }
+      .header_tuning .header__video {
+        display: none; }
+      .header_tuning .headerWrap {
+        background: #673ab7;
+        position: static;
+        height: 100%;
+        width: 100%; }
+      .header_tuning .headerWrap__mainTitle {
+        padding: 70px 0 50px;
+        margin: 0 80px; }
+      .header_tuning .headerWrap__resumeText {
+        margin: 0 70px;
+        font-size: 44px;
+        line-height: 50px; }
+      .header_tuning .historyBlock {
+        padding-bottom: 50px; } }
 
 .headerWrap__mainTitle {
   font-size: 48px;
