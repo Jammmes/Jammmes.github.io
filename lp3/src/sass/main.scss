@@ -1,3 +1,13 @@
+//FONTS
+@font-face {
+    font-family: Paragon;
+    src: url("../fonts/Parangon530C.otf");
+}
+
+$mainFont:Paragon,
+Sans-serif;
+$secondFont:Arial,
+Sans-serif;
 //MIXINS
 @mixin respondTo($_media) {
     @if $_media==phones {
