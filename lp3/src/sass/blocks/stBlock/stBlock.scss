@@ -1,0 +1,11 @@
+.stBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stBlock__leftUnit {
+    text-align: center;
+    font-family: $mainFont;
+    font-size: 48px;
+}

@@ -1,0 +1,23 @@
+.doubleText {}
+
+.doubleText__text {
+    font-size: 26px;
+    line-height: 40px;
+    font-family: $secondFont;
+    position: relative;
+}
+
+.doubleText_back:before {
+    color: rgba(193, 193, 193, 0.19);
+    font-family: $secondFont;
+    font-size: 320px;
+    font-weight: 800;
+    text-align: center;
+    content: 'WE';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}

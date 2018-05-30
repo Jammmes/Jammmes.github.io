@@ -1,0 +1,18 @@
+.studio_tuning {
+    @include positionOnPage();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.studio__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.studio__service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
