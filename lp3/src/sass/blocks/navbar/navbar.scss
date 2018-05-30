@@ -1,0 +1,15 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__item {
+    font-family: $secondFont;
+    font-size: 26px;
+    margin: 40px;
+}
+
+.navbar__item_active {
+    color: #f6ae48;
+}

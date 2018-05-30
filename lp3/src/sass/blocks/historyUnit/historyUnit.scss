@@ -55,11 +55,11 @@
 }
 
 .historyUnit__count {
-    font-size: 48px;
     border-left: 2px solid;
     border-right: 2px solid;
     font-family: $mainFont;
     font-size: 48px;
+    z-index: 1000;
 }
 
 .historyUnit__comment {

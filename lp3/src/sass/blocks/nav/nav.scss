@@ -1,0 +1,25 @@
+.nav_tuning {
+    @include positionOnPage();
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    @include respondTo(lg-desktops) {
+        justify-content: stretch;
+        width: 100%;
+    }
+    @include respondTo(small-desktops) {
+        justify-content: stretch;
+        padding: 0;
+        width: 100%;
+    }
+    @include respondTo(tablets) {
+        justify-content: stretch;
+        padding: 0;
+        width: 100%;
+    }
+    @include respondTo(wide-phones) {
+        justify-content: stretch;
+        padding: 0;
+        width: 100%;
+    }
+}
