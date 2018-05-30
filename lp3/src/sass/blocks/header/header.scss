@@ -1,24 +1,33 @@
     .headerWrap {
-        position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         height: 810px;
-        // background: rgba(158, 158, 158, 0.6);
-        width: 75%;
-        left: 12.5%;
+        background: url(../img/header.png);
+        position: relative;
+    }
+    
+    .headerWrap_overlay:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgba(27, 31, 103, 0.6);
     }
     
     .header_tuning {
         @include positionOnPage();
         color: white;
         height: 810px;
-        width: 100%;
         padding: 0;
         @include respondTo(lg-desktops) {
             height: 100%;
-            .header__video {
+            width: 100%;
+            .headerWrap_overlay:before {
                 display: none;
             }
             .headerWrap {
@@ -39,7 +48,9 @@
         }
         @include respondTo(small-desktops) {
             height: 100%;
-            .header__video {
+            width: 100%;
+            padding: 0;
+            .headerWrap_overlay:before {
                 display: none;
             }
             .headerWrap {
@@ -60,7 +71,9 @@
         }
         @include respondTo(tablets) {
             height: 100%;
-            .header__video {
+            width: 100%;
+            padding: 0;
+            .headerWrap_overlay:before {
                 display: none;
             }
             .headerWrap {
@@ -81,7 +94,9 @@
         }
         @include respondTo(wide-phones) {
             height: 100%;
-            .header__video {
+            width: 100%;
+            padding: 0;
+            .headerWrap_overlay:before {
                 display: none;
             }
             .headerWrap {
@@ -109,6 +124,7 @@
         padding: 200px 0 50px;
         margin: 0 50px;
         font-family: $mainFont;
+        z-index: 100;
     }
     
     .headerWrap__resumeText {
@@ -117,9 +133,5 @@
         line-height: 36px;
         margin: 0 240px;
         font-family: $secondFont;
-    }
-    
-    .header__video {
-        width: 100%;
-        height: 100%;
+        z-index: 100;
     }

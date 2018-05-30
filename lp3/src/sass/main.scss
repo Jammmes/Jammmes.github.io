@@ -58,3 +58,11 @@ Sans-serif;
 @import "blocks/nav/nav";
 @import "blocks/navbar/navbar";
 @import "blocks/link/link";
+//TEMPLATES
+
+/*
+@include respondTo(lg-desktops) {}
+@include respondTo(small-desktops) {}
+@include respondTo(tablets) {}
+ @include respondTo(wide-phones) {}
+*/
