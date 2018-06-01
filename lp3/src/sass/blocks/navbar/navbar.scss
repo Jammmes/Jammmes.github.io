@@ -1,19 +1,40 @@
-.navbar {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    @include respondTo(lg-desktops) {}
-    @include respondTo(small-desktops) {}
-    @include respondTo(tablets) {}
-    @include respondTo(wide-phones) {}
-}
-
-.navbar__item {
-    font-family: $secondFont;
-    font-size: 26px;
-    margin: 40px;
-}
-
-.navbar__item_active {
-    color: #f6ae48;
-}
+    .navbar {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        @include respondTo(lg-desktops) {
+            .navbar__item {
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+        @include respondTo(small-desktops) {
+            .navbar__item {
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+        @include respondTo(tablets) {
+            .navbar__item {
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+        @include respondTo(wide-phones) {
+            .navbar__item {
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .navbar__item {
+        font-family: $secondFont;
+        font-size: 30px;
+        margin: 40px;
+        font-weight: 600;
+    }
+    
+    .navbar__item_active {
+        color: #f6ae48;
+    }
