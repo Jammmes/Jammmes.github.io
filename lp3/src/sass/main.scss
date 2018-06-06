@@ -11,12 +11,12 @@ Sans-serif;
 //MIXINS
 @mixin respondTo($_media) {
     @if $_media==phones {
-        @media all and (max-width: 479px) {
+        @media all and (max-width: 575px) {
             @content;
         }
     }
     @else if $_media==wide-phones {
-        @media all and (min-width: 480px) and (max-width: 767px) {
+        @media all and (min-width: 576px) and (max-width: 767px) {
             @content;
         }
     }
