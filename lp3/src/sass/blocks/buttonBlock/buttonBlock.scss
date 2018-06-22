@@ -1,0 +1,26 @@
+.buttonBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonBlock__button {
+    background: transparent;
+    border: 2px solid;
+    padding: 10px 20px;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 20px;
+    height: 100%;
+    font-weight: 600;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        font-weight: 900;
+    }
+}
+
+.buttonBlock__arrow {
+    padding: 0 20px 0 0;
+}

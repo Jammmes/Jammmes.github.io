@@ -3,4 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     z-index: 100;
+    @include respondTo(wide-phones) {
+        flex-direction: column;
+    }
 }

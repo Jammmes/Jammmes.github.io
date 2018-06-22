@@ -15,15 +15,21 @@
             }
         }
         @include respondTo(tablets) {
+            flex-wrap: wrap;
+            justify-content: center;
             .navbar__item {
                 font-size: 25px;
                 font-weight: 400;
+                margin: 20px;
             }
         }
         @include respondTo(wide-phones) {
+            flex-wrap: wrap;
+            justify-content: center;
             .navbar__item {
                 font-size: 25px;
                 font-weight: 400;
+                margin: 10px;
             }
         }
     }

@@ -1,9 +1,20 @@
+//COLORS
+$sbHoverColor:#f6ae48;
+$mainIconColor:#00bbe8;
+$hoverIconColor:white;
 //FONTS
 @font-face {
     font-family: Paragon;
     src: url("../fonts/Parangon530C.otf");
 }
 
+@font-face {
+    font-family: 'IconFont';
+    src: url('../fonts/IconFont.eot?22295437#iefix') format('embedded-opentype'), url('../fonts/IconFont.woff?22295437') format('woff'), url('../fonts/IconFont.ttf?22295437') format('truetype'), url('../fonts/IconFont.svg?22295437#IconFont') format('svg');
+}
+
+$iconFont:IconFont,
+Sans-serif;
 $mainFont:Paragon,
 Sans-serif;
 $secondFont:Arial,
@@ -62,6 +73,7 @@ Sans-serif;
 @import "blocks/stBlock/stBlock";
 @import "blocks/doubleText/doubleText";
 @import "blocks/serviceBlock/serviceBlock";
+@import "blocks/icon/icon";
 @import "blocks/buttonBlock/buttonBlock";
 //TEMPLATES
 
