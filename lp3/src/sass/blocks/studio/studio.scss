@@ -3,22 +3,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0;
+    padding: 0 0 50px 0;
     border-top: 2px solid rgba(0, 0, 0, 0.32);
     @include respondTo(lg-desktops) {
-        padding: 0;
         width: 100%;
     }
     @include respondTo(small-desktops) {
-        padding: 0;
         width: 100%;
     }
     @include respondTo(tablets) {
-        padding: 0;
         width: 100%;
     }
     @include respondTo(wide-phones) {
-        padding: 0;
         width: 100%;
     }
 }
