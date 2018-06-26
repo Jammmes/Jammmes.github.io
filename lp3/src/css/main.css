@@ -543,7 +543,13 @@ right-small 0xe805
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  z-index: 100; }
+
+.buttonBlock_dev {
+  border-top: 1px solid white;
+  padding: 30px 0 15px;
+  margin: 0 30px; }
 
 .buttonBlock__button {
   background: transparent;
@@ -561,6 +567,15 @@ right-small 0xe805
 
 .buttonBlock__arrow {
   padding: 0 20px 0 0; }
+
+.buttonBlock__button_blue {
+  border-color: #00bbe8; }
+
+.buttonBlock__button_yellow {
+  border-color: #ffcc00; }
+
+.buttonBlock__button_green {
+  border-color: #66c105; }
 
 .kredo_tuning {
   width: 1500px;
@@ -582,6 +597,67 @@ right-small 0xe805
   @media all and (min-width: 576px) and (max-width: 767px) {
     .kredo_tuning {
       width: 100%; } }
+
+.developBanner_tuning {
+  width: 666px;
+  height: 526px;
+  position: absolute;
+  top: 1500px;
+  left: 500px;
+  background: url("../img/debelop_bg.png");
+  color: white; }
+
+.developBanner__text {
+  color: white;
+  font-size: 48px; }
+
+.developBlock_tuning {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.developUnit {
+  position: relative; }
+
+.developUnit_overlay:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); }
+
+.developUnit_tuning {
+  margin: 20px;
+  padding: 10px;
+  width: 366px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: contain; }
+
+.developUnit__title {
+  color: white;
+  font-size: 48px;
+  z-index: 100;
+  font-family: Paragon, Sans-serif;
+  padding: 75px 0 0 30px; }
+
+.developUnit_WS {
+  background: url("../img/webSite_bg.png");
+  background-size: contain; }
+
+.developUnit_LP {
+  background: url("../img/landingPage_bg.png");
+  background-size: contain; }
+
+.developUnit_IS {
+  background: url("../img/internetShop_bg.png");
+  background-size: contain; }
 
 /*
 @include respondTo(lg-desktops) {}
