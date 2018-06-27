@@ -25,7 +25,7 @@
     outline: none;
     &:hover {
         cursor: pointer;
-        font-weight: 900;
+        font-weight: 800;
     }
 }
 
@@ -35,12 +35,21 @@
 
 .buttonBlock__button_blue {
     border-color: #00bbe8;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #00bbe8;
+    }
 }
 
 .buttonBlock__button_yellow {
     border-color: #ffcc00;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #ffcc00;
+    }
 }
 
 .buttonBlock__button_green {
     border-color: #66c105;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #66c105;
+    }
 }

@@ -563,19 +563,25 @@ right-small 0xe805
   outline: none; }
   .buttonBlock__button:hover {
     cursor: pointer;
-    font-weight: 900; }
+    font-weight: 800; }
 
 .buttonBlock__arrow {
   padding: 0 20px 0 0; }
 
 .buttonBlock__button_blue {
   border-color: #00bbe8; }
+  .buttonBlock__button_blue:hover + .buttonBlock__arrow .icon {
+    color: #00bbe8; }
 
 .buttonBlock__button_yellow {
   border-color: #ffcc00; }
+  .buttonBlock__button_yellow:hover + .buttonBlock__arrow .icon {
+    color: #ffcc00; }
 
 .buttonBlock__button_green {
   border-color: #66c105; }
+  .buttonBlock__button_green:hover + .buttonBlock__arrow .icon {
+    color: #66c105; }
 
 .kredo_tuning {
   width: 1500px;
@@ -602,20 +608,66 @@ right-small 0xe805
   width: 666px;
   height: 526px;
   position: absolute;
-  top: 1500px;
-  left: 500px;
-  background: url("../img/debelop_bg.png");
-  color: white; }
+  top: -95px;
+  left: 201px;
+  background: url("../img/develop_bg.png");
+  color: white;
+  z-index: 101; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .developBanner_tuning {
+      left: 25%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .developBanner_tuning {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-size: cover; }
+      .developBanner_tuning .developBanner__text {
+        display: none; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .developBanner_tuning {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-size: cover; }
+      .developBanner_tuning .developBanner__text {
+        display: none; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .developBanner_tuning {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-size: cover; }
+      .developBanner_tuning .developBanner__text {
+        display: none; } }
 
 .developBanner__text {
+  padding: 130px 70px;
   color: white;
-  font-size: 48px; }
+  font-size: 63px;
+  font-family: Arial, Sans-serif;
+  font-weight: 700; }
 
 .developBlock_tuning {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .developBlock_tuning {
+      flex-direction: column;
+      align-items: center; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .developBlock_tuning {
+      flex-direction: column;
+      align-items: center; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .developBlock_tuning {
+      flex-direction: column;
+      align-items: center; } }
 
 .developUnit {
   position: relative; }
@@ -631,14 +683,24 @@ right-small 0xe805
   background: rgba(0, 0, 0, 0.8); }
 
 .developUnit_tuning {
-  margin: 20px;
+  margin: 150px 20px;
   padding: 10px;
   width: 366px;
   height: 315px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-size: contain; }
+  background-size: contain;
+  z-index: 200; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .developUnit_tuning {
+      margin: 10px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .developUnit_tuning {
+      margin: 10px; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .developUnit_tuning {
+      margin: 10px; } }
 
 .developUnit__title {
   color: white;

@@ -14,7 +14,7 @@
         }
         
         .developUnit_tuning {
-            margin: 20px;
+            margin: 150px 20px;
             padding: 10px;
             width: 366px;
             height: 315px;
@@ -22,6 +22,16 @@
             flex-direction: column;
             justify-content: space-between;
             background-size: contain;
+            z-index: 200;
+            @include respondTo(small-desktops) {
+                margin: 10px;
+            }
+            @include respondTo(tablets) {
+                margin: 10px;
+            }
+            @include respondTo(wide-phones) {
+                margin: 10px;
+            }
         }
         
         .developUnit__title {
