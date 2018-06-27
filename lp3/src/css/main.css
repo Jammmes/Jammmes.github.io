@@ -721,6 +721,170 @@ right-small 0xe805
   background: url("../img/internetShop_bg.png");
   background-size: contain; }
 
+.partners_tuning {
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .partners_tuning {
+      width: 100%;
+      padding: 0 30px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .partners_tuning {
+      width: 100%;
+      padding: 0 30px;
+      flex-direction: column; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .partners_tuning {
+      width: 100%;
+      padding: 0 30px;
+      flex-direction: column; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .partners_tuning {
+      width: 100%;
+      padding: 0 30px;
+      flex-direction: column; } }
+
+.textBanner_partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.textBanner__text {
+  font-size: 34px;
+  font-family: Arial, Sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-align: left;
+  line-height: 63px;
+  padding: 0 60px 0 65px; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .textBanner__text {
+      font-weight: 500;
+      line-height: 48px; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .textBanner__text {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 40px;
+      padding: 0 30px; } }
+
+.doubleTitle {
+  position: relative; }
+
+.doubleTitle_partners {
+  margin: 40px 0; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .doubleTitle_partners {
+      display: flex;
+      justify-content: center; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .doubleTitle_partners {
+      display: flex;
+      justify-content: center; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .doubleTitle_partners {
+      display: flex;
+      justify-content: center;
+      margin: 25px 0; } }
+
+.doubleTitle__text {
+  position: relative;
+  font-size: 64px;
+  font-weight: 800;
+  z-index: 100; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .doubleTitle__text {
+      font-size: 64px;
+      padding: 0 0 0 20px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .doubleTitle__text {
+      font-size: 64px;
+      padding: 0 0 0 20px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .doubleTitle__text {
+      font-size: 48px;
+      padding: 0 0 0 20px; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .doubleTitle__text {
+      font-size: 40px;
+      padding: 0 0 0 20px; } }
+
+.doubleTitle__back:before {
+  color: rgba(193, 193, 193, 0.65);
+  font-family: Arial, Sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 100%;
+  height: 100%;
+  z-index: 0; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .doubleTitle__back:before {
+      font-size: 100px;
+      top: -40px;
+      left: -10px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .doubleTitle__back:before {
+      font-size: 106px;
+      top: -42px;
+      left: 28px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .doubleTitle__back:before {
+      font-size: 84px;
+      top: -34px;
+      left: 28px; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .doubleTitle__back:before {
+      font-size: 62px;
+      top: -22px;
+      left: 28px; } }
+
+.doubleTitle__back_partners:before {
+  content: 'BE THE FIRST'; }
+
+.logoBlockVert_partners {
+  display: flex;
+  flex-direction: column;
+  margin: 40px; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .logoBlockVert_partners {
+      flex-direction: row;
+      justify-content: center; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .logoBlockVert_partners {
+      flex-direction: row;
+      justify-content: center; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .logoBlockVert_partners {
+      flex-direction: row;
+      justify-content: center;
+      margin: 10px; } }
+
+.logoBlockVert__unit {
+  margin: 20px; }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .logoBlockVert__unit {
+      margin: 10px; } }
+
+.logoBlockVert__unit_1partners {
+  background: url("../img/google_partner.png");
+  width: 205px;
+  height: 213px; }
+
+.logoBlockVert__unit_2partners {
+  background: url("../img/yandex_partner.png");
+  width: 199px;
+  height: 214px; }
+
 /*
 @include respondTo(lg-desktops) {}
 @include respondTo(small-desktops) {}
