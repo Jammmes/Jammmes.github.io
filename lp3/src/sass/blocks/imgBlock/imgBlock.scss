@@ -1,1 +1,59 @@
 .imgBlock {}
+
+.imgBlock_tuning {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @include respondTo(lg-desktops) {
+        justify-content: center;
+    }
+    @include respondTo(small-desktops) {
+        justify-content: center;
+    }
+    @include respondTo(tablets) {
+        justify-content: center;
+    }
+    @include respondTo(wide-phones) {
+        justify-content: center;
+    }
+}
+
+.imgBlock__unit {}
+
+.imgBlock__unit_img1 {
+    background: url('../img/work1.png');
+    width: 767px;
+    height: 426px;
+}
+
+.imgBlock__unit_img2 {
+    background: url('../img/work2.png');
+    width: 733px;
+    height: 426px;
+}
+
+.imgBlock__unit_img3 {
+    background: url('../img/work3.png');
+    width: 365px;
+    height: 340px;
+}
+
+.imgBlock__unit_img4 {
+    background: url('../img/work4.png');
+    width: 365px;
+    height: 340px;
+}
+
+.imgBlock__unit_img5 {
+    background: url('../img/work5.png');
+    width: 365px;
+    height: 325px;
+}
+
+.imgBlock__unit_img6 {
+    background: url('../img/work6.png');
+    width: 365px;
+    height: 325px;
+}

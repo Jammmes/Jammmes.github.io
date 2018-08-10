@@ -1,0 +1,41 @@
+.more {}
+
+.more_tuning {
+    @include positionOnPage();
+    background: #303263;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+    }
+}
+
+.more__button {}
+
+.more__button_tuning {
+    background: #6a6b8e;
+    font-family: $secondFont;
+    color: $hoverIconColor;
+    border-radius: 20px;
+    border: 0;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 30px;
+    &:hover {
+        cursor: pointer;
+        color: #303263;
+    }
+}
