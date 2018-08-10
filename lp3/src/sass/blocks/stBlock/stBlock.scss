@@ -2,12 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    @include respondTo(xlg-desktops) {
-        flex-direction: column;
-        .stBlock__leftUnit {
-            margin: 35px 0 20px;
-        }
-    }
     @include respondTo(lg-desktops) {
         flex-direction: column;
         .stBlock__leftUnit {
