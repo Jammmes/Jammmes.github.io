@@ -20,22 +20,3 @@
         width: 100%;
     }
 }
-
-.more__button {}
-
-.more__button_tuning {
-    background: #6a6b8e;
-    font-family: $secondFont;
-    color: $hoverIconColor;
-    border-radius: 20px;
-    border: 0;
-    font-size: 26px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    padding: 20px;
-    margin: 30px;
-    &:hover {
-        cursor: pointer;
-        color: #303263;
-    }
-}

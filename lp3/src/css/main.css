@@ -49,6 +49,7 @@
 
 .blockWithBg_header {
   background: url(../img/header.png);
+  background-size: cover;
   height: 810px; }
   @media all and (min-width: 1200px) and (max-width: 1440px) {
     .blockWithBg_header .blockWithBg__mainTitle {
@@ -96,8 +97,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 100%;
-  background: rgba(27, 31, 103, 0.6); }
+  height: 100%; }
   @media all and (min-width: 992px) and (max-width: 1199px) {
     .blockWithBg_overlay:before {
       display: none; } }
@@ -107,6 +107,24 @@
   @media all and (min-width: 576px) and (max-width: 767px) {
     .blockWithBg_overlay:before {
       display: none; } }
+
+.blockWithBg_overlayHeader:before {
+  background: rgba(27, 31, 103, 0.6); }
+
+.blockWithBg_overlayKredo:before {
+  background: rgba(27, 31, 103, 0.6); }
+
+.blockWithBg_overlayTradeIn:before {
+  background: rgba(0, 0, 0, 0.6); }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .blockWithBg_overlayTradeIn:before {
+      display: block; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .blockWithBg_overlayTradeIn:before {
+      display: block; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .blockWithBg_overlayTradeIn:before {
+      display: block; } }
 
 .blockWithBg__mainTitle {
   font-size: 48px;
@@ -134,6 +152,7 @@
 
 .blockWithBg_kredo {
   background: url(../img/kredo.png);
+  background-size: cover;
   height: 566px; }
   @media all and (min-width: 1200px) and (max-width: 1440px) {
     .blockWithBg_kredo .blockWithBg__resumeText_kredo {
@@ -174,6 +193,19 @@
       .blockWithBg_kredo .blockWithBg__mainTitle_kredo {
         padding: 10px 0 10px;
         font-size: 38px; } }
+
+.blockWithBg__mainTitle_tradeIn {
+  font-family: Arial, Sans-serif;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 48px;
+  padding: 60px 20px 40px; }
+
+.blockWithBg_tradeIn {
+  background: url(../img/trade_in_bg.png);
+  background-size: cover;
+  height: 676; }
 
 .historyUnit {
   width: 251px;
@@ -1158,21 +1190,6 @@ right-small 0xe805
     .more_tuning {
       width: 100%; } }
 
-.more__button_tuning {
-  background: #6a6b8e;
-  font-family: Arial, Sans-serif;
-  color: white;
-  border-radius: 20px;
-  border: 0;
-  font-size: 26px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  padding: 20px;
-  margin: 30px; }
-  .more__button_tuning:hover {
-    cursor: pointer;
-    color: #303263; }
-
 .adaptate_tuning {
   width: 1500px;
   height: 100%;
@@ -1250,6 +1267,111 @@ right-small 0xe805
   width: 221px;
   height: 432px;
   margin-right: 0; }
+
+.tradeIn_tuning {
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  padding: 0; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .tradeIn_tuning {
+      width: 100%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .tradeIn_tuning {
+      width: 100%; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .tradeIn_tuning {
+      width: 100%; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .tradeIn_tuning {
+      width: 100%; } }
+
+.tradeIn__blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 100; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .tradeIn__blocks {
+      flex-direction: column; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .tradeIn__blocks {
+      flex-direction: column; } }
+
+.tradeInBlock__text {
+  font-family: Arial, Sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 30px 30px;
+  text-align: left;
+  letter-spacing: 0.9px;
+  line-height: 30px; }
+
+.blockHeader_tuning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 10px; }
+
+.blockHeader__logo {
+  margin: 15px; }
+
+.blockHeader__logo_prog {
+  background: url("../img/trade_in_prog.png");
+  background-size: cover;
+  height: 48px;
+  width: 69px; }
+
+.blockHeader__logo_proc {
+  background: url("../img/trade_in_proc.png");
+  background-size: cover;
+  height: 67px;
+  width: 67px; }
+
+.blockHeader__logo_cond {
+  background: url("../img/trade_in_cond.png");
+  background-size: cover;
+  height: 49px;
+  width: 64px; }
+
+.blockHeader__text {
+  color: white;
+  font-size: 30px;
+  font-family: Paragon, Sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px; }
+
+.button {
+  font-family: Arial, Sans-serif;
+  color: white;
+  border-radius: 20px;
+  border: 0; }
+
+.button_more {
+  background: #6a6b8e;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin: 30px; }
+  .button_more:hover {
+    cursor: pointer;
+    color: #303263; }
+
+.button_grade {
+  background: #f6ae48;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin: 10px;
+  z-index: 100; }
+  .button_grade:hover {
+    cursor: pointer;
+    color: #f5eacd; }
 
 /*
 @include respondTo(lg-desktops) {}

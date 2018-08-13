@@ -8,6 +8,7 @@
     
     .blockWithBg_header {
         background: url(../img/header.png);
+        background-size: cover;
         height: 810px;
         @include respondTo(lg-desktops) {
             .blockWithBg__mainTitle {
@@ -66,7 +67,6 @@
         left: 0px;
         width: 100%;
         height: 100%;
-        background: rgba(27, 31, 103, 0.6);
         @include respondTo(small-desktops) {
             display: none;
         }
@@ -75,6 +75,27 @@
         }
         @include respondTo(wide-phones) {
             display: none;
+        }
+    }
+    
+    .blockWithBg_overlayHeader:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
+    .blockWithBg_overlayKredo:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
+    .blockWithBg_overlayTradeIn:before {
+        background: rgba(0, 0, 0, 0.6);
+        @include respondTo(small-desktops) {
+            display: block;
+        }
+        @include respondTo(tablets) {
+            display: block;
+        }
+        @include respondTo(wide-phones) {
+            display: block;
         }
     }
     
@@ -108,6 +129,7 @@
     
     .blockWithBg_kredo {
         background: url(../img/kredo.png);
+        background-size: cover;
         height: 566px;
         @include respondTo(lg-desktops) {
             .blockWithBg__resumeText_kredo {
@@ -155,4 +177,19 @@
                 font-size: 38px;
             }
         }
+    }
+    
+    .blockWithBg__mainTitle_tradeIn {
+        font-family: $secondFont;
+        color: $hoverIconColor;
+        font-weight: 800;
+        letter-spacing: 5px;
+        font-size: 48px;
+        padding: 60px 20px 40px;
+    }
+    
+    .blockWithBg_tradeIn {
+        background: url(../img/trade_in_bg.png);
+        background-size: cover;
+        height: 676;
     }
