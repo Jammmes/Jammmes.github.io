@@ -43,3 +43,21 @@
         padding: 0 30px
     }
 }
+
+.textBanner__text_careful {
+    font-size: 24px;
+    text-align: left;
+    line-height: 60px;
+    padding: 0;
+    margin: 37px 0 0;
+    @include respondTo(tablets) {
+        font-weight: 500;
+        line-height: 48px;
+    }
+    @include respondTo(wide-phones) {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 40px;
+        padding: 0 30px
+    }
+}

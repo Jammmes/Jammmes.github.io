@@ -99,6 +99,10 @@
         }
     }
     
+    .blockWithBg_overlayFooter:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
     .blockWithBg__mainTitle {
         font-size: 48px;
         padding: 200px 0 50px;
@@ -192,4 +196,10 @@
         background: url(../img/trade_in_bg.png);
         background-size: cover;
         height: 676;
+    }
+    
+    .blockWithBg_footer {
+        background: url(../img/footer_bg.png);
+        background-size: cover;
+        height: 566px;
     }

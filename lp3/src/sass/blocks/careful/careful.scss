@@ -1,0 +1,28 @@
+.careful {}
+
+.careful_tuning {
+    @include positionOnPage();
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+        padding: 0 50px;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+        padding: 0 50px;
+        flex-direction: column;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+        padding: 0 50px;
+        flex-direction: column;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+        padding: 0 50px;
+        flex-direction: column;
+    }
+}

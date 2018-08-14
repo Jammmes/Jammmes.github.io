@@ -126,6 +126,9 @@
     .blockWithBg_overlayTradeIn:before {
       display: block; } }
 
+.blockWithBg_overlayFooter:before {
+  background: rgba(27, 31, 103, 0.6); }
+
 .blockWithBg__mainTitle {
   font-size: 48px;
   padding: 200px 0 50px;
@@ -206,6 +209,11 @@
   background: url(../img/trade_in_bg.png);
   background-size: cover;
   height: 676; }
+
+.blockWithBg_footer {
+  background: url(../img/footer_bg.png);
+  background-size: cover;
+  height: 566px; }
 
 .historyUnit {
   width: 251px;
@@ -825,6 +833,23 @@ right-small 0xe805
       line-height: 40px;
       padding: 0 30px; } }
 
+.textBanner__text_careful {
+  font-size: 24px;
+  text-align: left;
+  line-height: 60px;
+  padding: 0;
+  margin: 37px 0 0; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .textBanner__text_careful {
+      font-weight: 500;
+      line-height: 48px; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .textBanner__text_careful {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 40px;
+      padding: 0 30px; } }
+
 .doubleTitle {
   position: relative; }
 
@@ -935,6 +960,29 @@ right-small 0xe805
       padding: 0 0 0 20px;
       text-align: center; } }
 
+.doubleTitle__text_careful {
+  font-size: 35px;
+  font-weight: 800; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .doubleTitle__text_careful {
+      font-size: 35px;
+      padding: 20px 0; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .doubleTitle__text_careful {
+      font-size: 35px;
+      padding: 20px 0;
+      text-align: center; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .doubleTitle__text_careful {
+      font-size: 28px;
+      padding: 20px 0;
+      text-align: center; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .doubleTitle__text_careful {
+      font-size: 24px;
+      padding: 20px 0;
+      text-align: center; } }
+
 .doubleTitle__back:before {
   content: '';
   display: block;
@@ -988,12 +1036,12 @@ right-small 0xe805
     .doubleTitle__back_projects:before {
       font-size: 75px;
       top: -65%;
-      left: 35; } }
+      left: 35px; } }
   @media all and (min-width: 992px) and (max-width: 1199px) {
     .doubleTitle__back_projects:before {
       font-size: 75px;
       top: -65%;
-      left: 35; } }
+      left: 35px; } }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .doubleTitle__back_projects:before {
       font-size: 60px;
@@ -1021,22 +1069,55 @@ right-small 0xe805
     .doubleTitle__back_adaptate:before {
       font-size: 75px;
       top: -65%;
-      left: 35; } }
+      left: -35px; } }
   @media all and (min-width: 992px) and (max-width: 1199px) {
     .doubleTitle__back_adaptate:before {
       font-size: 75px;
       top: -65%;
-      left: 35; } }
+      left: -35px; } }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .doubleTitle__back_adaptate:before {
       font-size: 60px;
       top: -80%;
-      left: 35px; } }
+      left: -35px; } }
   @media all and (min-width: 576px) and (max-width: 767px) {
     .doubleTitle__back_adaptate:before {
       font-size: 52px;
       top: -67%;
       left: 20%; } }
+
+.doubleTitle__back_careful:before {
+  color: rgba(193, 193, 193, 0.4);
+  font-family: Arial, Sans-serif;
+  font-size: 80px;
+  content: 'BE CAREFUL';
+  font-weight: 800;
+  top: -67%;
+  left: -58px;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 5px;
+  padding: 0; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .doubleTitle__back_careful:before {
+      font-size: 65px;
+      top: 0%;
+      left: -20px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .doubleTitle__back_careful:before {
+      font-size: 65px;
+      top: 0%;
+      left: 20%; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .doubleTitle__back_careful:before {
+      font-size: 65px;
+      top: 0%;
+      left: 15%; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .doubleTitle__back_careful:before {
+      font-size: 55px;
+      top: 0%;
+      left: 5%; } }
 
 .logoBlockVert_partners {
   display: flex;
@@ -1056,6 +1137,21 @@ right-small 0xe805
       justify-content: center;
       margin: 10px; } }
 
+.logoBlockVert_careful {
+  margin: 40px; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .logoBlockVert_careful {
+      margin: 0; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .logoBlockVert_careful {
+      margin: 0; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .logoBlockVert_careful {
+      margin: 0; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .logoBlockVert_careful {
+      margin: 0; } }
+
 .logoBlockVert__unit {
   margin: 20px; }
   @media all and (min-width: 576px) and (max-width: 767px) {
@@ -1071,6 +1167,23 @@ right-small 0xe805
   background: url("../img/yandex_partner.png");
   width: 199px;
   height: 222px; }
+
+.logoBlockVert__unit_careful {
+  background: url("../img/careful.png");
+  width: 563px;
+  height: 460px; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .logoBlockVert__unit_careful {
+      margin: 0; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .logoBlockVert__unit_careful {
+      margin: 0; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .logoBlockVert__unit_careful {
+      margin: 0; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .logoBlockVert__unit_careful {
+      margin: 0; } }
 
 .ourProjects_tuning {
   width: 1500px;
@@ -1372,6 +1485,36 @@ right-small 0xe805
   .button_grade:hover {
     cursor: pointer;
     color: #f5eacd; }
+
+.careful_tuning {
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  @media all and (min-width: 1200px) and (max-width: 1440px) {
+    .careful_tuning {
+      width: 100%;
+      padding: 0 50px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .careful_tuning {
+      width: 100%;
+      padding: 0 50px;
+      flex-direction: column; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .careful_tuning {
+      width: 100%;
+      padding: 0 50px;
+      flex-direction: column; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .careful_tuning {
+      width: 100%;
+      padding: 0 50px;
+      flex-direction: column; } }
 
 /*
 @include respondTo(lg-desktops) {}
