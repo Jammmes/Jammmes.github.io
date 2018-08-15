@@ -266,16 +266,19 @@
             @include respondTo(small-desktops) {
                 font-size: 65px;
                 top: 0%;
-                left: 20%;
+                left: 0%;
+                text-align: center;
             }
             @include respondTo(tablets) {
                 font-size: 65px;
                 top: 0%;
-                left: 15%;
+                left: 0%;
+                text-align: center;
             }
             @include respondTo(wide-phones) {
                 font-size: 55px;
                 top: 0%;
-                left: 5%;
+                left: 0%;
+                text-align: center;
             }
         }

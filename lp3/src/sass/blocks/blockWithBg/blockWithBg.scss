@@ -101,6 +101,15 @@
     
     .blockWithBg_overlayFooter:before {
         background: rgba(27, 31, 103, 0.6);
+        @include respondTo(small-desktops) {
+            display: block;
+        }
+        @include respondTo(tablets) {
+            display: block;
+        }
+        @include respondTo(wide-phones) {
+            display: block;
+        }
     }
     
     .blockWithBg__mainTitle {

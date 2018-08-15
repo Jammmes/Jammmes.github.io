@@ -3,15 +3,28 @@
 .formBlock_main {
     z-index: 100;
     color: $hoverIconColor;
+    margin: 5% auto;
+    @include respondTo(lg-desktops) {
+        margin: 10% auto;
+    }
+    @include respondTo(small-desktops) {
+        margin: 13% auto;
+    }
+    @include respondTo(tablets) {
+        margin: 15% auto;
+    }
+    @include respondTo(wide-phones) {
+        margin: 15% auto;
+    }
 }
 
 .formBlock__row {
-    border: 2px solid $hoverIconColor;
+    border: 4px solid $hoverIconColor;
+    border-top: 0;
 }
 
 .formBlock__row_first {
-    display: flex;
-    flex-direction: row;
+    border-top: 4px solid $hoverIconColor;
 }
 
 .formBlock__row_clear {
