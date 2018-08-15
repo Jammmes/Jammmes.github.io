@@ -1,12 +1,16 @@
 .historyUnit {
     width: 251px;
     height: 160px;
-    // border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //  align-items: center;
     margin: 0 30px;
+    @include respondTo(tablets) {
+        margin: 0 2px;
+    }
+    @include respondTo(wide-phones) {
+        margin: 0 2px;
+    }
 }
 
 .topBlock__logo {

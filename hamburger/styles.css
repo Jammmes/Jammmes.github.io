@@ -1,0 +1,70 @@
+ .main {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .mainForm {
+     border: 5px solid;
+     border-radius: 15px;
+     width: 300px;
+     padding: 20px;
+     margin: 20px;
+ }
+ 
+ .infoBlock {
+     border: 5px solid;
+     border-radius: 15px;
+     width: 500px;
+     padding: 20px;
+     margin: 20px;
+ }
+ 
+ .title {
+     text-align: center;
+     padding-bottom: 10px;
+     border-bottom: 1px solid;
+ }
+ 
+ input[type='button'] {
+     width: 100%;
+     height: 30px;
+     font-weight: 700;
+ }
+ 
+ label {
+     cursor: pointer;
+ }
+ 
+ .burgerSize {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .burgerPrice {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .burgerCalories {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .burgerInfo {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .infoOrder {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .info {
+     font-weight: 800;
+ }

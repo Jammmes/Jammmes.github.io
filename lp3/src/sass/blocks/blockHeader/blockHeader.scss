@@ -1,0 +1,41 @@
+.blockHeader {}
+
+.blockHeader_tuning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.blockHeader__logo {
+    margin: 15px;
+}
+
+.blockHeader__logo_prog {
+    background: url('../img/trade_in_prog.png');
+    background-size: cover;
+    height: 48px;
+    width: 69px;
+}
+
+.blockHeader__logo_proc {
+    background: url('../img/trade_in_proc.png');
+    background-size: cover;
+    height: 67px;
+    width: 67px;
+}
+
+.blockHeader__logo_cond {
+    background: url('../img/trade_in_cond.png');
+    background-size: cover;
+    height: 49px;
+    width: 64px;
+}
+
+.blockHeader__text {
+    color: $hoverIconColor;
+    font-size: 30px;
+    font-family: $mainFont;
+    font-weight: 500;
+    letter-spacing: 3px;
+}

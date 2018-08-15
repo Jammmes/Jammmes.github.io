@@ -1,0 +1,39 @@
+.adaptate {}
+
+.adaptate_tuning {
+    @include positionOnPage();
+    padding: 50px 0 50px 100px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+        padding: 100px;
+        margin: 10px auto;
+        padding: 100px 0 50px 100px;
+        flex-direction: column;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+        padding: 100px;
+        margin: 10px auto;
+        padding: 100px 0 50px 85px;
+        flex-direction: column;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+        padding: 100px;
+        margin: 10px auto;
+        padding: 100px 0 50px 85px;
+        flex-direction: column;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+        padding: 100px;
+        margin: 10px auto;
+        padding: 50px 0 50px 40px;
+        flex-direction: column;
+    }
+}

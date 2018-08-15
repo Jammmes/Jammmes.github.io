@@ -1,0 +1,19 @@
+.kredo {}
+
+.kredo_tuning {
+    @include positionOnPage();
+    color: white;
+    padding: 0;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+    }
+}

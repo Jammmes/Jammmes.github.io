@@ -1,9 +1,20 @@
+//COLORS
+$sbHoverColor:#f6ae48;
+$mainIconColor:#00bbe8;
+$hoverIconColor:white;
 //FONTS
 @font-face {
     font-family: Paragon;
     src: url("../fonts/Parangon530C.otf");
 }
 
+@font-face {
+    font-family: 'IconFont';
+    src: url('../fonts/IconFont.eot?22295437#iefix') format('embedded-opentype'), url('../fonts/IconFont.woff?22295437') format('woff'), url('../fonts/IconFont.ttf?22295437') format('truetype'), url('../fonts/IconFont.svg?22295437#IconFont') format('svg');
+}
+
+$iconFont:IconFont,
+Sans-serif;
 $mainFont:Paragon,
 Sans-serif;
 $secondFont:Arial,
@@ -11,12 +22,12 @@ Sans-serif;
 //MIXINS
 @mixin respondTo($_media) {
     @if $_media==phones {
-        @media all and (max-width: 479px) {
+        @media all and (max-width: 575px) {
             @content;
         }
     }
     @else if $_media==wide-phones {
-        @media all and (min-width: 480px) and (max-width: 767px) {
+        @media all and (min-width: 576px) and (max-width: 767px) {
             @content;
         }
     }
@@ -53,8 +64,44 @@ Sans-serif;
 // IMPORT
 @import "blocks/page/page";
 @import "blocks/header/header";
+@import "blocks/blockWithBg/blockWithBg";
 @import "blocks/historyUnit/historyUnit";
 @import "blocks/historyBlock/historyBlock";
 @import "blocks/nav/nav";
 @import "blocks/navbar/navbar";
 @import "blocks/link/link";
+@import "blocks/studio/studio";
+@import "blocks/stBlock/stBlock";
+@import "blocks/doubleText/doubleText";
+@import "blocks/serviceBlock/serviceBlock";
+@import "blocks/icon/icon";
+@import "blocks/buttonBlock/buttonBlock";
+@import "blocks/kredo/kredo";
+@import "blocks/developBanner/developBanner";
+@import "blocks/developBlock/developBlock";
+@import "blocks/developUnit/developUnit";
+@import "blocks/partners/partners";
+@import "blocks/textBanner/textBanner";
+@import "blocks/doubleTitle/doubleTitle";
+@import "blocks/logoBlockVert/logoBlockVert";
+@import "blocks/ourProjects/ourProjects";
+@import "blocks/lastProjects/lastProjects";
+@import "blocks/imgBlock/imgBlock";
+@import "blocks/more/more";
+@import "blocks/adaptate/adaptate";
+@import "blocks/logoBlockHor/logoBlockHor";
+@import "blocks/tradeIn/tradeIn";
+@import "blocks/tradeInBlock/tradeInBlock";
+@import "blocks/blockHeader/blockHeader";
+@import "blocks/button/button";
+@import "blocks/careful/careful";
+@import "blocks/formBlock/formBlock";
+@import "blocks/input/input";
+//TEMPLATES
+
+/*
+@include respondTo(lg-desktops) {}
+@include respondTo(small-desktops) {}
+@include respondTo(tablets) {}
+ @include respondTo(wide-phones) {}
+*/

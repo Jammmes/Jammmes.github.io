@@ -1,0 +1,73 @@
+.logoBlockVert {}
+
+.logoBlockVert_partners {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    @include respondTo(small-desktops) {
+        flex-direction: row;
+        justify-content: center;
+    }
+    @include respondTo(tablets) {
+        flex-direction: row;
+        justify-content: center;
+    }
+    @include respondTo(wide-phones) {
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+
+.logoBlockVert_careful {
+    margin: 40px;
+    @include respondTo(lg-desktops) {
+        margin: 0;
+    }
+    @include respondTo(small-desktops) {
+        margin: 0;
+    }
+    @include respondTo(tablets) {
+        margin: 0;
+    }
+    @include respondTo(wide-phones) {
+        margin: 0;
+    }
+}
+
+.logoBlockVert__unit {
+    margin: 20px;
+    @include respondTo(wide-phones) {
+        margin: 10px;
+    }
+}
+
+.logoBlockVert__unit_1partners {
+    background: url('../img/google_partner.png');
+    width: 205px;
+    height: 213px;
+}
+
+.logoBlockVert__unit_2partners {
+    background: url('../img/yandex_partner.png');
+    width: 199px;
+    height: 222px;
+}
+
+.logoBlockVert__unit_careful {
+    background: url('../img/careful.png');
+    width: 563px;
+    height: 460px;
+    @include respondTo(lg-desktops) {
+        margin: 0;
+    }
+    @include respondTo(small-desktops) {
+        margin: 0;
+    }
+    @include respondTo(tablets) {
+        margin: 0;
+    }
+    @include respondTo(wide-phones) {
+        margin: 0;
+    }
+}

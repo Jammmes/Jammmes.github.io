@@ -1,0 +1,50 @@
+ .serviceBlock {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     position: relative;
+ }
+ 
+ .serviceBlock_tuning {
+     width: 399px;
+     // height: 344px;
+     &:hover {
+         background: $sbHoverColor;
+         .icon {
+             color: $hoverIconColor;
+         }
+         .serviceBlock__title {
+             color: $hoverIconColor;
+         }
+         .serviceBlock__text {
+             color: $hoverIconColor;
+         }
+     }
+     @include respondTo(tablets) {
+         width: 100%;
+     }
+     @include respondTo(wide-phones) {
+         width: 100%;
+     }
+ }
+ 
+ .serviceBlock__logо {
+     margin: 0 0 20px 0;
+     padding: 15px 20px 0;
+ }
+ 
+ .serviceBlock__title {
+     font-family: $secondFont;
+     font-size: 22px;
+     font-weight: 700;
+     margin: 0 0 20px;
+     padding: 0 20px;
+ }
+ 
+ .serviceBlock__text {
+     font-family: $secondFont;
+     font-size: 18px;
+     line-height: 28px;
+     margin: 0 0 30px 0;
+     padding: 0 20px;
+ }

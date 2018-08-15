@@ -1,0 +1,19 @@
+.formBlock {}
+
+.formBlock_main {
+    z-index: 100;
+    color: $hoverIconColor;
+}
+
+.formBlock__row {
+    border: 2px solid $hoverIconColor;
+}
+
+.formBlock__row_first {
+    display: flex;
+    flex-direction: row;
+}
+
+.formBlock__row_clear {
+    border: 0;
+}

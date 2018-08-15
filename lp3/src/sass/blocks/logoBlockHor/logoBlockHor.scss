@@ -1,0 +1,43 @@
+.logoBlockHor {}
+
+.logoBlockHor_adaptate {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 40px 0 0 25px;
+    @include respondTo(small-desktops) {
+        margin: 0 0 0 25px;
+    }
+    @include respondTo(tablets) {
+        margin: 0 0 0 25px;
+    }
+    @include respondTo(wide-phones) {
+        display: none;
+    }
+}
+
+.logoBlockHor__unit {
+    margin: 20px;
+    @include respondTo(wide-phones) {
+        margin: 10px;
+    }
+}
+
+.logoBlockHor__unit_iphone {
+    background: url('../img/iphone.png');
+    width: 116px;
+    height: 229px;
+}
+
+.logoBlockHor__unit_ipad {
+    background: url('../img/ipad.png');
+    width: 244px;
+    height: 346px;
+}
+
+.logoBlockHor__unit_macbook {
+    background: url('../img/macbook.png');
+    width: 221px;
+    height: 432px;
+    margin-right: 0;
+}

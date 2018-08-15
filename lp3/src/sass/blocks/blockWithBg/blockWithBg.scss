@@ -1,0 +1,205 @@
+    .blockWithBg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    
+    .blockWithBg_header {
+        background: url(../img/header.png);
+        background-size: cover;
+        height: 810px;
+        @include respondTo(lg-desktops) {
+            .blockWithBg__mainTitle {
+                padding: 70px 0 50px;
+            }
+            .blockWithBg__resumeText {
+                margin: 0 70px;
+            }
+        }
+        @include respondTo(small-desktops) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__mainTitle {
+                padding: 70px 0 50px;
+            }
+            .blockWithBg__resumeText {
+                margin: 0 70px;
+            }
+        }
+        @include respondTo(tablets) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__mainTitle {
+                padding: 70px 0 50px;
+            }
+            .blockWithBg__resumeText {
+                margin: 0 70px;
+            }
+        }
+        @include respondTo(wide-phones) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__mainTitle {
+                padding: 70px 0 50px;
+                font-size: 35px;
+            }
+            .blockWithBg__resumeText {
+                margin: 0 70px;
+                font-size: 30px;
+                line-height: 50px;
+            }
+        }
+    }
+    
+    .blockWithBg_overlay:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        @include respondTo(small-desktops) {
+            display: none;
+        }
+        @include respondTo(tablets) {
+            display: none;
+        }
+        @include respondTo(wide-phones) {
+            display: none;
+        }
+    }
+    
+    .blockWithBg_overlayHeader:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
+    .blockWithBg_overlayKredo:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
+    .blockWithBg_overlayTradeIn:before {
+        background: rgba(0, 0, 0, 0.6);
+        @include respondTo(small-desktops) {
+            display: block;
+        }
+        @include respondTo(tablets) {
+            display: block;
+        }
+        @include respondTo(wide-phones) {
+            display: block;
+        }
+    }
+    
+    .blockWithBg_overlayFooter:before {
+        background: rgba(27, 31, 103, 0.6);
+    }
+    
+    .blockWithBg__mainTitle {
+        font-size: 48px;
+        padding: 200px 0 50px;
+        margin: 0 50px;
+        font-family: $mainFont;
+        z-index: 100;
+    }
+    
+    .blockWithBg__mainTitle_kredo {
+        padding: 10px 0 50px;
+    }
+    
+    .blockWithBg__resumeText {
+        font-size: 27px;
+        padding: 0 0 50px 0;
+        line-height: 40px;
+        margin: 0 295px;
+        font-family: $secondFont;
+        z-index: 100;
+    }
+    
+    .blockWithBg__resumeText_kredo {
+        font-size: 35px;
+        padding: 67px 0 70px 0;
+        line-height: 50px;
+        margin: 0px 190px;
+    }
+    
+    .blockWithBg_kredo {
+        background: url(../img/kredo.png);
+        background-size: cover;
+        height: 566px;
+        @include respondTo(lg-desktops) {
+            .blockWithBg__resumeText_kredo {
+                padding: 0;
+            }
+        }
+        @include respondTo(small-desktops) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__resumeText_kredo {
+                padding: 0;
+            }
+        }
+        @include respondTo(tablets) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__resumeText_kredo {
+                padding: 0;
+                font-size: 20px;
+                line-height: 30px;
+                margin: 30px;
+            }
+            .blockWithBg__mainTitle_kredo {
+                padding: 10px 0 10px;
+                font-size: 38px;
+            }
+        }
+        @include respondTo(wide-phones) {
+            background: rgba(103, 58, 183, 1);
+            position: static;
+            height: 100%;
+            width: 100%;
+            .blockWithBg__resumeText_kredo {
+                padding: 0;
+                font-size: 20px;
+                line-height: 30px;
+                margin: 30px;
+            }
+            .blockWithBg__mainTitle_kredo {
+                padding: 10px 0 10px;
+                font-size: 38px;
+            }
+        }
+    }
+    
+    .blockWithBg__mainTitle_tradeIn {
+        font-family: $secondFont;
+        color: $hoverIconColor;
+        font-weight: 800;
+        letter-spacing: 5px;
+        font-size: 48px;
+        padding: 60px 20px 40px;
+    }
+    
+    .blockWithBg_tradeIn {
+        background: url(../img/trade_in_bg.png);
+        background-size: cover;
+        height: 676;
+    }
+    
+    .blockWithBg_footer {
+        background: url(../img/footer_bg.png);
+        background-size: cover;
+        height: 566px;
+    }

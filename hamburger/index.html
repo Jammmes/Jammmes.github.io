@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <script src="hamburger.js" charset="utf-8"></script>
+    <script src="order.js" charset="utf-8"></script>
+    <script src="interface.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Hamburger</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Составление своего гамбургера</h1>
+        <div class="main">
+            <form class="mainForm" id="mainForm">
+                <h2 class="title">Размер</h2>
+                <input required class="input" type="radio" name="size" id="rbSizeSmall" value="SIZE_SMALL" checked><label for="rbSizeSmall">Маленький</label><br>
+                <input class="input" type="radio" name="size" id="rbSizeLarge" value="SIZE_LARGE"><label for="rbSizeLarge">Большой</label><br>
+                <h2 class="title">Начинка</h2>
+                <input required class="input" type="radio" name="stuffing" id="rbChesse" value="STUFFING_CHEESE" checked><label for="rbChesse">Сыр</label><br>
+                <input class="input" type="radio" name="stuffing" id="rbSalad" value="STUFFING_SALAD"><label for="rbSalad">Салат</label><br>
+                <input class="input" type="radio" name="stuffing" id="rbPotato" value="STUFFING_POTATO"><label for="rbPotato">Картофель</label><br>
+                <h2 class="title">Приправы</h2>
+                <input class="input" type="checkbox" name="topping" id="cbMayo" value="TOPPING_MAYO"><label for="cbMayo">Майонез</label><br>
+                <input class="input" type="checkbox" name="topping" id="cbSpice" value="TOPPING_SPICE"><label for="cbSpice">Специи</label><br>
+                <hr>
+                <input type="button" id="buttonOrder" value="Заказать">
+            </form>
+            <div class="infoBlock">
+                <h2 class="title">Информация о заказе</h1>
+                    <div class="infoOrder">
+                        <div class="burgerSize">
+                            <div class="label">Размер:</div>
+                            <div class="info" id="infoSize"></div>
+                        </div>
+                        <div class="burgerInfo">
+                            <div class="label">Начинка:</div>
+                            <div class="info" id="infoStuffing"></div>
+                            <div class="label">Приправы:</div>
+                            <div class="info" id="infoTopping"></div>
+                        </div>
+                        <div class="burgerCalories">
+                            <div class="label">Количество калорий:</div>
+                            <div class="info" id="infoCalories"></div>
+                        </div>
+                        <div class="burgerPrice">
+                            <div class="label">Цена:</div>
+                            <div class="info" id="infoPrice"></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.partners {}
+
+.partners_tuning {
+    @include positionOnPage();
+    display: flex;
+    flex-direction: row;
+    padding: 0 150px;
+    margin: 50px auto 150px;
+    @include respondTo(lg-desktops) {
+        width: 100%;
+        padding: 0 30px;
+    }
+    @include respondTo(small-desktops) {
+        width: 100%;
+        padding: 0 30px;
+        flex-direction: column;
+    }
+    @include respondTo(tablets) {
+        width: 100%;
+        padding: 0 30px;
+        flex-direction: column;
+    }
+    @include respondTo(wide-phones) {
+        width: 100%;
+        padding: 0 30px;
+        flex-direction: column;
+        margin: 50px auto 50px;
+    }
+}
