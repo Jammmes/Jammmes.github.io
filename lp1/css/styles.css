@@ -2,6 +2,30 @@
   font-family: Georgia;
   src: url("../fonts/Georgia.ttf");
 }
+@keyframes moveObject {
+  from {
+    transform: skewY(2deg);
+  }
+  to {
+    transform: skewY(-2deg);
+  }
+}
+@keyframes hideCaption {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes changeColor {
+  from {
+    background-color: #ffffff;
+  }
+  to {
+    background-color: #76c38f;
+  }
+}
 .mainGrid {
   display: grid;
 }
@@ -161,6 +185,9 @@ header .nav .topMenu a {
   line-height: 15.6px;
 }
 header .nav .topMenu a:hover {
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
   border-radius: 10px;
   background-color: #76c38f;
 }
@@ -175,7 +202,7 @@ header .slider .carousel-control.right .rightArrow {
   width: 15px;
   right: 5%;
   top: 50%;
-  background-image: url("../img/Right-arrow.png");
+  background: url("../img/Right-arrow.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -190,7 +217,7 @@ header .slider .carousel-control.left .leftArrow {
   width: 15px;
   left: 5%;
   top: 50%;
-  background-image: url("../img/Left-arrow.png");
+  background: url("../img/Left-arrow.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -217,6 +244,11 @@ header .slider .slideBlock .slideReadMoreBt {
   width: 37%;
   margin: 20px 0 0 60px;
 }
+header .slider .slideBlock .slideReadMoreBt:hover {
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
+}
 header .slider .slideBlock .slideReadMoreBt a {
   font-family: Georgia, sans-serif;
   display: block;
@@ -231,9 +263,8 @@ header .slider .slideBlock .slideCircle {
   width: 430px;
   height: 430px;
   border-radius: 50%;
-  border: 25px solid;
+  border: 25px solid #6b6b6b;
   background-color: #333333;
-  border-color: #6b6b6b;
   position: relative;
   margin: 52px;
 }
@@ -350,7 +381,10 @@ main .topUnitBlock .unitBlock a {
   text-decoration: none;
 }
 main .topUnitBlock .unitBlock:hover {
-  background-color: #76c38f;
+  animation-name: changeColor;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 main .topUnitBlock .unitBlock:hover .unitImg {
   background-color: #ffffff;
@@ -472,8 +506,10 @@ main .latestWorks .LWunitBlock:hover {
   border-color: #76c38f;
 }
 main .latestWorks .LWunitBlock:hover .LWunitImg .LWunitCaption {
-  background-color: #303030;
-  color: #303030;
+  animation-name: hideCaption;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 main .latestWorks .LWunitBlock .LWunitImg {
   height: 190px;
@@ -560,6 +596,13 @@ footer .blogBlock .postTitle {
 footer .blogBlock .postTitle a {
   font-family: Georgia, sans-serif;
   color: #76c38f;
+  text-decoration: none;
+}
+footer .blogBlock .postTitle a:hover {
+  display: inline-block;
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
 }
 footer .blogBlock .postAuthor {
   font-family: Georgia, sans-serif;
@@ -572,6 +615,13 @@ footer .blogBlock .postAuthor {
 footer .blogBlock .postAuthor a {
   font-family: Georgia, sans-serif;
   color: #76c38f;
+  text-decoration: none;
+}
+footer .blogBlock .postAuthor a:hover {
+  display: inline-block;
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
 }
 footer .blogBlock .postDate {
   font-family: Georgia, sans-serif;
@@ -597,6 +647,12 @@ footer .blogBlock .readMore a {
   line-height: 34.45px;
   text-decoration: none;
 }
+footer .blogBlock .readMore a:hover {
+  display: inline-block;
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
+}
 footer .linksBlock {
   height: 100%;
 }
@@ -621,6 +677,12 @@ footer .linksBlock .linkUnit a {
   line-height: 34.45px;
   text-decoration: none;
 }
+footer .linksBlock .linkUnit a:hover {
+  display: inline-block;
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
+}
 footer .tweetsBlock {
   height: 100%;
 }
@@ -643,6 +705,12 @@ footer .tweetsBlock .teweetUnit {
 footer .tweetsBlock .teweetUnit a {
   text-decoration: none;
   color: #76c38f;
+}
+footer .tweetsBlock .teweetUnit a:hover {
+  display: inline-block;
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
 }
 footer .contactsBlock {
   height: 100%;
@@ -714,6 +782,11 @@ footer .contactsBlock .formWrap .form-group button {
   font-weight: 800;
   line-height: 14.4px;
 }
+footer .contactsBlock .formWrap .form-group button:hover {
+  animation-name: moveObject;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
+}
 .lowFooter {
   width: 1200px;
   margin: 0 auto;
@@ -726,8 +799,7 @@ footer .contactsBlock .formWrap .form-group button {
   font-size: 13px;
   font-weight: 400;
   line-height: 13px;
-  border-style: groove;
-  border-top: 1px solid #000000;
+  border-top: 1px groove #000000;
   border-bottom: none;
   border-left: none;
   border-right: none;

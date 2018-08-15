@@ -145,6 +145,7 @@ header{
 				line-height: 15.6px;
 
 				&:hover{
+					.objAnimation();
 					border-radius:10px;
 					background-color:@selColor;
 				}
@@ -165,7 +166,7 @@ header{
 						width:15px;
 						right:5%;
 						top: 50%;
-						background-image:url("../img/Right-arrow.png");
+						background:url("../img/Right-arrow.png");
 						background-repeat: no-repeat;
 						background-size:cover;
 						position: absolute;
@@ -182,7 +183,7 @@ header{
 						width:15px;
 						left:5%;
 						top: 50%;
-						background-image:url("../img/Left-arrow.png");
+						background:url("../img/Left-arrow.png");
 						background-repeat: no-repeat;
 						background-size:cover;
 						position: absolute;
@@ -216,6 +217,10 @@ header{
 				width: 37%;
 				margin:20px 0 0 60px;
 
+				&:hover{
+					.objAnimation();
+				}
+
 				a {
 					font-family: @mainFont;
 					display: block;
@@ -232,9 +237,8 @@ header{
 				width:430px;
 				height:430px;
 				border-radius:50%;
-				border: 25px solid;
+				border: 25px solid @lightCircleColor;
 				background-color:@darkCircleColor;
-				border-color:@lightCircleColor;
 				position:relative;
 				margin:52px;
 
@@ -348,7 +352,7 @@ main{
 			}
 
 			&:hover{
-				background-color: @selColor;
+				.unitChangeColor();
 
 				.unitImg{
 					background-color:@lightBackColor;
@@ -480,8 +484,7 @@ main{
 				.LWunitImg{
 
 					.LWunitCaption{
-						background-color:@semilightBackColor;
-						color:@semilightBackColor;
+						.hideCaptionAnimation();
 					}	
 				}
 			}
@@ -564,6 +567,12 @@ footer{
 				a{
 					font-family: @mainFont;
 					color: @selColor;
+					text-decoration:none;
+
+					&:hover{
+						display:inline-block;
+						.objAnimation();
+					}
 				}
 		}
 
@@ -576,6 +585,12 @@ footer{
 				a{
 					font-family: @mainFont;
 					color: @selColor;
+					text-decoration:none;
+
+					&:hover{
+						display:inline-block;
+						.objAnimation();
+					}
 				}
 		}
 
@@ -602,6 +617,11 @@ footer{
 				font-weight: 400;
 				line-height: 34.45px;
 				text-decoration: none;
+
+				&:hover{
+					display:inline-block;
+					.objAnimation();
+				}
 			}
 		}
 	}
@@ -618,13 +638,18 @@ footer{
 			color:@semiLightTextColor;
 			font-family: @mainFont;
 		
-				a {
+				a{
 					font-family: @mainFont;
 					color: @selColor;
 					font-size: 13px;
 					font-weight: 400;
 					line-height: 34.45px;
 					text-decoration: none;
+
+					&:hover{
+						display:inline-block;
+						.objAnimation();
+					}
 				}
 		}
 	}
@@ -647,6 +672,11 @@ footer{
 				a{
 					text-decoration: none;
 					color: @selColor;
+					
+					&:hover{
+						display:inline-block;
+						.objAnimation();
+					}
 				}
 		}
 	}
@@ -702,6 +732,10 @@ footer{
 					font-size: 12px;
 					font-weight: 800;
 					line-height: 14.4px;
+
+					&:hover{
+						.objAnimation();
+					}
 				}
 			}	
 		}
@@ -717,8 +751,7 @@ footer{
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 13px;
-	border-style: groove;
-	border-top: 1px solid rgba(0, 0, 0, 1);
+	border-top: 1px groove rgba(0, 0, 0, 1);
 	border-bottom: none;
 	border-left: none;
 	border-right: none;

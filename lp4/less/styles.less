@@ -1,0 +1,582 @@
+@import "variables";
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.pageHeader{
+	background-image:url("../img/darkBack.png");
+	padding:50px;
+	min-height:223px;
+	.centerLayoutBlocks();
+
+	.respond-to(small-desktops, {
+      width:100%
+    });
+
+    .respond-to(tablets, {
+      width:100%
+    });
+
+    .respond-to(wide-phones, {
+      width:100%;
+    });
+
+    .respond-to(phones, {
+      width:100%
+    });
+
+	.headerTitle{
+		font-family: @mainFont;
+		color:  @lightColor;
+		font-size: 60px;
+		font-weight: 400;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+		margin:0;
+	}
+
+	.headerList{
+		font-family: @mainFont;
+		font-weight: 400;
+		font-size: 20px;
+		color: @lightColor;
+		margin-top:22px;
+
+			span{
+				padding-right: 10px;
+			}
+
+			p{
+				margin:0 0 8px;	
+			}		
+	}
+
+	.headImg{
+		width: 469px;
+		height: 214px;
+
+		.respond-to(wide-phones, {
+    		margin-top: @adaptiveMargin;
+    		width: 100%;
+    	});
+
+		.respond-to(tablets, {
+			margin-top: @adaptiveMargin;
+      		width:100%
+    	});
+
+    	.respond-to(phones, {
+    		margin-top: @adaptiveMargin;
+    		width:100%
+    	});
+	}
+}
+
+main {
+	.centerLayoutBlocks();
+
+		.respond-to(small-desktops, {
+    		width:100%
+    	});
+
+    	.respond-to(tablets, {
+    		width:100%
+    	});
+
+    	.respond-to(wide-phones, {
+    		width:100%;
+    	});
+
+    	.respond-to(phones, {
+    		width:100%
+    	});
+
+	.aboutProduct{
+		background-color: @lightColor;
+		.sectionAdaptiveMixin();
+	
+			.aboutTitle{
+				font-family: @mainFont;
+				color:@darkColor;
+				font-size: 30px;
+				font-weight: 400;
+				line-height: 36px;
+			}
+	
+			.aboutText{
+				font-family: @mainFont;
+				color:  @darkShadowText;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 24px;
+	
+	    		.respond-to(wide-phones, {
+	    			margin-top: @adaptiveMargin;
+	    		});
+			}
+	
+			.aboutImg{
+				width: 430px;
+				height: 245px;
+				float:right;
+	
+				.respond-to(small-desktops, {
+	    			clear:both;
+	    			margin-top: @adaptiveMargin;
+	    			float:left;
+	    		});	
+
+				.respond-to(tablets, {
+	    			clear:both;
+	    			margin-top: @adaptiveMargin;
+	    			float:left;
+	    		});	
+
+	    		.respond-to(wide-phones, {
+	    			clear:both;
+	    			margin-top: @adaptiveMargin;
+	    			float:left;
+	    		});		
+	  		}
+	}
+
+	.dignity{
+		background-color: @lightShadow;
+		.sectionAdaptiveMixin();
+
+		.digTitle{
+			text-align: center;
+			font-family: @mainFont;
+			color:  #445161;
+			font-size: 30px;
+			font-weight: 400;
+			margin-bottom:25px;
+			width:100%;
+		}
+
+		.digTextAndImg{
+			padding: 0 15px 0 40px;
+			background: url("../img/Shape1.png") no-repeat left 5px;
+			font-family: @mainFont;
+			color:  @darkShadowText;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			text-align: justify;
+			margin-bottom:35px;	
+		}
+	}
+
+	.screenShots{
+		background-color: @lightColor;
+		.sectionAdaptiveMixin();
+
+			.screenShotsTitle{
+				text-align: center;
+				font-family: @mainFont;
+				color:  @darkColor;
+				font-size: 30px;
+				font-weight: 400;
+				margin-bottom:25px;	
+			}
+
+			.screenImg{
+				float: left;	
+				width: 100%;
+				height: 150px;
+				margin-bottom:30px;
+			}
+
+			.titleImg{
+				font-family: @mainFont;
+				color:  @darkColor;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 16px;
+				padding-bottom: 20px;
+			}
+	
+			.screenDescr{
+				font-family: @mainFont;
+				color:  @darkShadowText;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 24px;
+				text-align:justify;
+			}				
+	}
+
+	.review{
+		background-color: @lightShadow;
+		.sectionAdaptiveMixin();
+
+		.reviewTitle{
+			font-family: @mainFont;
+			color:  @darkColor;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 36px;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+
+		.reviewsRow{
+			margin-bottom:30px;
+		}
+
+		.reviewCircle{
+			border-radius: 50%;
+			width: 75px;
+			height: 75px;
+			float:right;
+			margin:30px;
+
+				.respond-to(small-desktops, {
+					float:none;
+					display:flex;
+					flex-direction:row;
+					justify-content:center;
+					margin: 30px auto;
+					width: 120px;
+					height: 120px;
+	    		});	
+
+				.respond-to(tablets, {
+					float:none;
+					display:flex;
+					flex-direction:row;
+					justify-content:center;
+					margin: 30px auto;
+					width: 120px;
+					height: 120px;
+	    		});	
+
+				.respond-to(wide-phones, {
+					float:none;
+					display:flex;
+					flex-direction:row;
+					justify-content:center;
+					margin: 30px auto;
+					width: 120px;
+					height: 120px;
+	    		});		
+		}
+
+		.reviewDataBlock{
+			background-color:@darkShadow;
+
+			.reviewText{
+				font-family: @mainFont;
+				color:  @darkShadowText;
+				font-size: 14px;
+				font-style: italic;
+				line-height: 18px;
+				position: relative;
+				text-align:justify;
+				padding:20px 16px 10px 16px;
+
+				.reviewSquare{
+					background-color:@darkShadow;
+					width:20px;
+					height:20px;
+					position:absolute;
+					transform:rotate(45deg);
+					top:50%;
+					left:-10px;
+
+						.respond-to(small-desktops, {
+							left:49%;
+							top:-10%;
+	    				});	
+				
+						.respond-to(tablets, {
+							left:49%;
+							top:-10%;
+	    				});	
+
+						.respond-to(wide-phones, {
+							left:49%;
+							top:-10%;
+	    				});	
+
+	    				.respond-to(phones, {
+							display:none;
+	    				});	
+				}
+			}
+		
+			.reviewSign{
+				padding:0 0 20px 16px;
+				font-family: @mainFont;
+				color:  @weakShadow;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 18px;
+				font-style: normal;
+			}
+		}
+	}
+
+	.BuyIt{
+		background-color: @lightColor;
+		.sectionAdaptiveMixin();
+
+		.BuyItTitle{
+			font-family: @mainFont;
+			color:  @darkColor;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 36px;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+
+		.BuyItDataBlock{
+			display:flex;
+			flex-direction:row;
+			justify-content:center;
+			align-items:flex-end;
+
+				.respond-to(small-desktops, {
+					flex-direction:column;
+					align-items:center;
+	    		});	
+
+				
+				.respond-to(tablets, {
+					flex-direction:column;
+					align-items:center;
+	    		});	
+
+
+				.respond-to(wide-phones, {
+					flex-direction:column;
+					align-items:center;
+	    		});
+
+	    		.respond-to(phones, {
+    				flex-direction:column;
+    				align-items:center;
+    				width:100%
+    			});	
+
+			.BuyItUnit{
+				margin:25px;
+				
+				.grBuyIt{					
+					width: 300px;
+
+					.grTitle{
+						background-color:@darkColor;
+						border-color:@darkColor;
+						font-family: @mainFont;
+						color:  @lightColor;
+						font-size: 24px;
+						font-weight: 400;
+						line-height: 30px;
+						text-align: center;
+					}
+
+					.grPrice{
+						border-color:@darkColor;
+						font-family: @mainFont;
+						color:  @darkColor;
+						font-size: 40px;
+						font-weight: 400;
+						line-height: 30px;
+						text-align: center;
+						margin: auto;
+						background-color: white;
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}
+
+					.grList{
+						background-color:@darkColor;
+						border-color:@darkColor;
+						font-family: @mainFont;
+						color:  @lightColor;
+						font-size: 14px;
+						font-weight: 400;
+						line-height: 24px;
+						padding-bottom: 10px;
+						
+						p{
+							margin:0;
+						}
+					}
+
+					.grButton{
+						background-color:@darkColor;
+						border-color:@darkColor;
+						padding-bottom: 15px;
+							
+							.btn-default{
+								background-color:  @lightColor;
+								width: 260px;
+								font-family: @mainFont;
+								color:  #445161;
+								font-size: 18px;
+								font-weight: 700;
+								line-height: 18px;
+								height: 40px;
+								margin: auto;
+							}
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	.sectionAdaptiveMixin();
+	.centerLayoutBlocks();
+	background-image:url("../img/darkBack.png");
+	min-height:509px;
+
+		.respond-to(small-desktops, {
+    		width:100%
+    	});
+	
+	    .respond-to(tablets, {
+	    	width:100%
+	    });
+	
+	    .respond-to(wide-phones, {
+	    	width:100%;
+	    });
+	
+	    .respond-to(phones, {
+	    	width:100%
+    	});
+
+
+	.footerTitle{
+		font-family: @mainFont;
+		color:  @lightColor;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 36px;
+		margin: 25px auto;
+		text-align:center;
+	}
+
+	.footerFormBlock{
+		height: 400px;
+		width: 550px;
+		margin-left: 33px;		
+			
+			textarea{
+				resize: none;
+			}
+
+		.respond-to(small-desktops, {
+    		width:100%
+    	});
+	
+	    .respond-to(tablets, {
+	    	width:100%
+	    });
+
+    	.respond-to(wide-phones, {
+    		width:100%;
+    	});
+	
+    	.respond-to(phones, {
+	    	width:100%
+    	});
+
+		.btn-default{
+			width: 140px;
+			height: 40px;
+			font-family: @mainFont;
+			color:  @darkColor;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 24px;
+			margin-left: 35%; 
+		}	
+	}
+
+	.footerContBlock{
+		
+		.imgSkype{
+			width: 24px;
+			height: 26px;
+			background-image: url("../img/imgSkype.png");
+			float: left;
+			margin-right: 5px;
+		}
+
+		.loginSkype,.accountICQ,.accountEmail,.phoneNumber{
+			font-family: @mainFont;
+			color:  @lightColor;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			margin: 0 0 20px 0;
+				
+				a{
+					text-decoration: none;
+					color: inherit;
+				}
+		}
+
+		.imgICQ{
+			width: 26px;
+			height: 26px;
+			background-image: url("../img/imgICQ.png");
+			float: left;
+			margin-right: 5px;
+		}
+		
+		.imgEmail{
+			width: 22px;
+			height: 22px;
+			background-image: url("../img/imgEmail.png");
+			float: left;
+			margin-right: 5px;
+		}
+		
+		.imgPhone{
+			width: 23px;
+			height: 23px;
+			background-image: url("../img/imgPhone.png");
+			float: left;
+			margin-right: 5px;
+		}
+		
+		.socialGroup{
+
+			.twitter,.facebook,.instagramm,.googleplus,.youtube{
+				font-family: SocialIco;
+				font-size: 60px;
+				color: white;
+				float: left;
+				margin: 10px 2px 0 0;
+				line-height: 24px;			
+					
+					a{
+						text-decoration: none;
+						color: inherit;
+					}
+			}
+		}
+	}			
+}
+
+.lowFooter{
+	.centerLayoutBlocks();
+	font-family: @mainFont;
+	color:  @darkColor;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 24px;
+	text-align: center;
+	background-color: @lightShadow;
+	width: 100%;
+}

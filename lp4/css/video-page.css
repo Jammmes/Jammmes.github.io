@@ -1,0 +1,125 @@
+@font-face {
+  font-family: SocialIco;
+  src: url("../fonts/Socialico.ttf");
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.navbar.navbar-default {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.mainContainer {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer .video-container {
+  position: relative;
+}
+.mainContainer .video-container video {
+  width: 100%;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .mainContainer .video-container video {
+    display: none;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .mainContainer .video-container video {
+    display: none;
+  }
+}
+@media all and (max-width: 479px) {
+  .mainContainer .video-container video {
+    display: none;
+  }
+}
+.mainContainer .video-container .formWrap {
+  z-index: 1000;
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  width: 550px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .mainContainer .video-container .formWrap {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .mainContainer .video-container .formWrap {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@media all and (max-width: 479px) {
+  .mainContainer .video-container .formWrap {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+.mainContainer .video-container .formWrap .mainForm {
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #ff9800;
+}
+.mainContainer .video-container .formWrap .mainForm form {
+  padding: 30px;
+}
+.mainContainer .video-container .formWrap .mainForm form label {
+  font-size: 2rem;
+  color: #f5f5f5;
+}
+.mainContainer .video-container .formWrap .mainForm form label,
+.mainContainer .video-container .formWrap .mainForm form input {
+  display: block;
+  width: 100%;
+}
+.mainContainer .video-container .formWrap .mainForm form input {
+  margin-bottom: 20px;
+  outline: none;
+}
+.mainContainer .video-container .formWrap .mainForm form input[type="submit"] {
+  color: #000;
+  border-radius: 10px;
+  font-weight: 700;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .mainContainer .video-container .formWrap .mainForm form input[type="submit"] {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .mainContainer .video-container .formWrap .mainForm form input[type="submit"] {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .mainContainer .video-container .formWrap .mainForm {
+    background-color: #445162;
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .mainContainer .video-container .formWrap .mainForm {
+    background-color: #445162;
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .mainContainer .video-container .formWrap .mainForm {
+    background-color: #445162;
+    width: 100%;
+  }
+}

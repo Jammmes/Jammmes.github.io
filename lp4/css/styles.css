@@ -1,0 +1,582 @@
+@font-face {
+  font-family: SocialIco;
+  src: url("../fonts/Socialico.ttf");
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.pageHeader {
+  background-image: url("../img/darkBack.png");
+  padding: 50px;
+  min-height: 223px;
+  width: 1280px;
+  margin: 0 auto;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .pageHeader {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pageHeader {
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pageHeader {
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .pageHeader {
+    width: 100%;
+  }
+}
+.pageHeader .headerTitle {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+.pageHeader .headerList {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 22px;
+}
+.pageHeader .headerList span {
+  padding-right: 10px;
+}
+.pageHeader .headerList p {
+  margin: 0 0 8px;
+}
+.pageHeader .headImg {
+  width: 469px;
+  height: 214px;
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pageHeader .headImg {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pageHeader .headImg {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .pageHeader .headImg {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+main {
+  width: 1280px;
+  margin: 0 auto;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main {
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  main {
+    width: 100%;
+  }
+}
+main .aboutProduct {
+  background-color: #ffffff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main .aboutProduct .aboutTitle {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+main .aboutProduct .aboutText {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main .aboutProduct .aboutText {
+    margin-top: 30px;
+  }
+}
+main .aboutProduct .aboutImg {
+  width: 430px;
+  height: 245px;
+  float: right;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main .aboutProduct .aboutImg {
+    clear: both;
+    margin-top: 30px;
+    float: left;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main .aboutProduct .aboutImg {
+    clear: both;
+    margin-top: 30px;
+    float: left;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main .aboutProduct .aboutImg {
+    clear: both;
+    margin-top: 30px;
+    float: left;
+  }
+}
+main .dignity {
+  background-color: #f5f5f5;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main .dignity .digTitle {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  width: 100%;
+}
+main .dignity .digTextAndImg {
+  padding: 0 15px 0 40px;
+  background: url("../img/Shape1.png") no-repeat left 5px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 35px;
+}
+main .screenShots {
+  background-color: #ffffff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main .screenShots .screenShotsTitle {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+main .screenShots .screenImg {
+  float: left;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 30px;
+}
+main .screenShots .titleImg {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  padding-bottom: 20px;
+}
+main .screenShots .screenDescr {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+main .review {
+  background-color: #f5f5f5;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main .review .reviewTitle {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+main .review .reviewsRow {
+  margin-bottom: 30px;
+}
+main .review .reviewCircle {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  float: right;
+  margin: 30px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main .review .reviewCircle {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main .review .reviewCircle {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main .review .reviewCircle {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    width: 120px;
+    height: 120px;
+  }
+}
+main .review .reviewDataBlock {
+  background-color: #ececec;
+}
+main .review .reviewDataBlock .reviewText {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  position: relative;
+  text-align: justify;
+  padding: 20px 16px 10px 16px;
+}
+main .review .reviewDataBlock .reviewText .reviewSquare {
+  background-color: #ececec;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 50%;
+  left: -10px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main .review .reviewDataBlock .reviewText .reviewSquare {
+    left: 49%;
+    top: -10%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main .review .reviewDataBlock .reviewText .reviewSquare {
+    left: 49%;
+    top: -10%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main .review .reviewDataBlock .reviewText .reviewSquare {
+    left: 49%;
+    top: -10%;
+  }
+}
+@media all and (max-width: 479px) {
+  main .review .reviewDataBlock .reviewText .reviewSquare {
+    display: none;
+  }
+}
+main .review .reviewDataBlock .reviewSign {
+  padding: 0 0 20px 16px;
+  font-family: Arial, sans-serif;
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+}
+main .BuyIt {
+  background-color: #ffffff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main .BuyIt .BuyItTitle {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+main .BuyIt .BuyItDataBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main .BuyIt .BuyItDataBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main .BuyIt .BuyItDataBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  main .BuyIt .BuyItDataBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (max-width: 479px) {
+  main .BuyIt .BuyItDataBlock {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit {
+  margin: 25px;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt {
+  width: 300px;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grTitle {
+  background-color: #445162;
+  border-color: #445162;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grPrice {
+  border-color: #445162;
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grList {
+  background-color: #445162;
+  border-color: #445162;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grList p {
+  margin: 0;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grButton {
+  background-color: #445162;
+  border-color: #445162;
+  padding-bottom: 15px;
+}
+main .BuyIt .BuyItDataBlock .BuyItUnit .grBuyIt .grButton .btn-default {
+  background-color: #ffffff;
+  width: 260px;
+  font-family: Arial, sans-serif;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  height: 40px;
+  margin: auto;
+}
+footer {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url("../img/darkBack.png");
+  min-height: 509px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  footer {
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  footer {
+    width: 100%;
+  }
+}
+footer .footerTitle {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 25px auto;
+  text-align: center;
+}
+footer .footerFormBlock {
+  height: 400px;
+  width: 550px;
+  margin-left: 33px;
+}
+footer .footerFormBlock textarea {
+  resize: none;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  footer .footerFormBlock {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer .footerFormBlock {
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  footer .footerFormBlock {
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  footer .footerFormBlock {
+    width: 100%;
+  }
+}
+footer .footerFormBlock .btn-default {
+  width: 140px;
+  height: 40px;
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 35%;
+}
+footer .footerContBlock .imgSkype {
+  width: 24px;
+  height: 26px;
+  background-image: url("../img/imgSkype.png");
+  float: left;
+  margin-right: 5px;
+}
+footer .footerContBlock .loginSkype,
+footer .footerContBlock .accountICQ,
+footer .footerContBlock .accountEmail,
+footer .footerContBlock .phoneNumber {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+footer .footerContBlock .loginSkype a,
+footer .footerContBlock .accountICQ a,
+footer .footerContBlock .accountEmail a,
+footer .footerContBlock .phoneNumber a {
+  text-decoration: none;
+  color: inherit;
+}
+footer .footerContBlock .imgICQ {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/imgICQ.png");
+  float: left;
+  margin-right: 5px;
+}
+footer .footerContBlock .imgEmail {
+  width: 22px;
+  height: 22px;
+  background-image: url("../img/imgEmail.png");
+  float: left;
+  margin-right: 5px;
+}
+footer .footerContBlock .imgPhone {
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/imgPhone.png");
+  float: left;
+  margin-right: 5px;
+}
+footer .footerContBlock .socialGroup .twitter,
+footer .footerContBlock .socialGroup .facebook,
+footer .footerContBlock .socialGroup .instagramm,
+footer .footerContBlock .socialGroup .googleplus,
+footer .footerContBlock .socialGroup .youtube {
+  font-family: SocialIco;
+  font-size: 60px;
+  color: white;
+  float: left;
+  margin: 10px 2px 0 0;
+  line-height: 24px;
+}
+footer .footerContBlock .socialGroup .twitter a,
+footer .footerContBlock .socialGroup .facebook a,
+footer .footerContBlock .socialGroup .instagramm a,
+footer .footerContBlock .socialGroup .googleplus a,
+footer .footerContBlock .socialGroup .youtube a {
+  text-decoration: none;
+  color: inherit;
+}
+.lowFooter {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #f5f5f5;
+  width: 100%;
+}
