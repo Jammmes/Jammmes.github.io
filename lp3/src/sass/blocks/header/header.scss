@@ -1,0 +1,25 @@
+.header_tuning {
+    @include positionOnPage();
+    color: white;
+    height: 810px;
+    padding: 0;
+    @include respondTo(lg-desktops) {
+        height: 100%;
+        width: 100%;
+    }
+    @include respondTo(small-desktops) {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    @include respondTo(tablets) {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    @include respondTo(wide-phones) {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,40 @@
+.stBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    @include respondTo(lg-desktops) {
+        flex-direction: column;
+        .stBlock__leftUnit {
+            margin: 35px 0 20px;
+        }
+    }
+    @include respondTo(small-desktops) {
+        flex-direction: column;
+        .stBlock__leftUnit {
+            margin: 35px 0 20px;
+        }
+    }
+    @include respondTo(tablets) {
+        flex-direction: column;
+        .stBlock__leftUnit {
+            margin: 35px 0 20px;
+        }
+    }
+    @include respondTo(wide-phones) {
+        flex-direction: column;
+        .stBlock__leftUnit {
+            margin: 35px 0 20px;
+        }
+    }
+}
+
+.stBlock__leftUnit {
+    text-align: center;
+    font-family: $secondFont;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 120px;
+    font-weight: 600;
+}

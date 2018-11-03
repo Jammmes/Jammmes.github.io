@@ -1,0 +1,76 @@
+.historyUnit {
+    width: 251px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
+    @include respondTo(tablets) {
+        margin: 0 2px;
+    }
+    @include respondTo(wide-phones) {
+        margin: 0 2px;
+    }
+}
+
+.topBlock__logo {
+    height: 40px;
+    position: relative;
+    top: -17px;
+    margin: 0 8px
+}
+
+.topBlock {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+
+.topBlock__left {
+    border-left: 2px solid;
+    border-top: 2px solid;
+    width: 100%;
+}
+
+.topBlock__right {
+    border-right: 2px solid;
+    border-top: 2px solid;
+    width: 100%;
+}
+
+.topBlock__logo_service {
+    background: url(../img/star.png);
+    background-size: cover;
+    width: 46%;
+}
+
+.topBlock__logo_project {
+    background: url(../img/task.png);
+    background-size: cover;
+    height: 44px;
+    width: 44%;
+    margin: 0 1px 0 8px;
+}
+
+.topBlock__logo_client {
+    background: url(../img/diamond.png);
+    background-size: cover;
+    width: 46%;
+}
+
+.historyUnit__count {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    font-family: $mainFont;
+    font-size: 48px;
+    z-index: 1000;
+}
+
+.historyUnit__comment {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    padding-bottom: 30px;
+    font-family: $secondFont;
+    font-size: 18px;
+}

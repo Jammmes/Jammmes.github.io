@@ -1,0 +1,82 @@
+        .doubleTitle {
+            position: relative;
+        }
+        
+        .doubleTitle_partners {
+            margin: 40px 0;
+            @include respondTo(small-desktops) {
+                display: flex;
+                justify-content: center;
+            }
+            @include respondTo(tablets) {
+                display: flex;
+                justify-content: center;
+            }
+            @include respondTo(wide-phones) {
+                display: flex;
+                justify-content: center;
+                margin: 25px 0;
+            }
+        }
+        
+        .doubleTitle__text {
+            position: relative;
+            font-size: 64px;
+            font-weight: 800;
+            z-index: 100;
+            @include respondTo(lg-desktops) {
+                font-size: 64px;
+                padding: 0 0 0 20px;
+            }
+            @include respondTo(small-desktops) {
+                font-size: 64px;
+                padding: 0 0 0 20px;
+            }
+            @include respondTo(tablets) {
+                font-size: 48px;
+                padding: 0 0 0 20px;
+            }
+            @include respondTo(wide-phones) {
+                font-size: 40px;
+                padding: 0 0 0 20px;
+            }
+        }
+        
+        .doubleTitle__back:before {
+            color: rgba(193, 193, 193, 0.65);
+            font-family: $secondFont;
+            font-size: 120px;
+            font-weight: 800;
+            content: '';
+            display: block;
+            position: absolute;
+            top: -60px;
+            left: -60px;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            @include respondTo(lg-desktops) {
+                font-size: 100px;
+                top: -40px;
+                left: -10px;
+            }
+            @include respondTo(small-desktops) {
+                font-size: 106px;
+                top: -42px;
+                left: 28px;
+            }
+            @include respondTo(tablets) {
+                font-size: 84px;
+                top: -34px;
+                left: 28px;
+            }
+            @include respondTo(wide-phones) {
+                font-size: 62px;
+                top: -22px;
+                left: 28px;
+            }
+        }
+        
+        .doubleTitle__back_partners:before {
+            content: 'BE THE FIRST';
+        }

@@ -1,0 +1,94 @@
+//COLORS
+$sbHoverColor:#f6ae48;
+$mainIconColor:#00bbe8;
+$hoverIconColor:white;
+//FONTS
+@font-face {
+    font-family: Paragon;
+    src: url("../fonts/Parangon530C.otf");
+}
+
+@font-face {
+    font-family: 'IconFont';
+    src: url('../fonts/IconFont.eot?22295437#iefix') format('embedded-opentype'), url('../fonts/IconFont.woff?22295437') format('woff'), url('../fonts/IconFont.ttf?22295437') format('truetype'), url('../fonts/IconFont.svg?22295437#IconFont') format('svg');
+}
+
+$iconFont:IconFont,
+Sans-serif;
+$mainFont:Paragon,
+Sans-serif;
+$secondFont:Arial,
+Sans-serif;
+//MIXINS
+@mixin respondTo($_media) {
+    @if $_media==phones {
+        @media all and (max-width: 575px) {
+            @content;
+        }
+    }
+    @else if $_media==wide-phones {
+        @media all and (min-width: 576px) and (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $_media==tablets {
+        @media all and (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $_media==small-desktops {
+        @media all and (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $_media==lg-desktops {
+        @media all and (min-width: 1200px) and (max-width: 1440px) {
+            @content;
+        }
+    }
+    @else if $_media==xlg-desktops {
+        @media all and (min-width: 1441px) and (max-width: 1920px) {
+            @content;
+        }
+    }
+}
+
+@mixin positionOnPage() {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+// IMPORT
+@import "blocks/page/page";
+@import "blocks/header/header";
+@import "blocks/blockWithBg/blockWithBg";
+@import "blocks/historyUnit/historyUnit";
+@import "blocks/historyBlock/historyBlock";
+@import "blocks/nav/nav";
+@import "blocks/navbar/navbar";
+@import "blocks/link/link";
+@import "blocks/studio/studio";
+@import "blocks/stBlock/stBlock";
+@import "blocks/doubleText/doubleText";
+@import "blocks/serviceBlock/serviceBlock";
+@import "blocks/icon/icon";
+@import "blocks/buttonBlock/buttonBlock";
+@import "blocks/kredo/kredo";
+@import "blocks/developBanner/developBanner";
+@import "blocks/developBlock/developBlock";
+@import "blocks/developUnit/developUnit";
+@import "blocks/partners/partners";
+@import "blocks/textBanner/textBanner";
+@import "blocks/doubleTitle/doubleTitle";
+@import "blocks/logoBlockVert/logoBlockVert";
+//TEMPLATES
+
+/*
+@include respondTo(lg-desktops) {}
+@include respondTo(small-desktops) {}
+@include respondTo(tablets) {}
+ @include respondTo(wide-phones) {}
+*/

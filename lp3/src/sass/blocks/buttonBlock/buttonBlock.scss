@@ -1,0 +1,55 @@
+.buttonBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+.buttonBlock_dev {
+    border-top: 1px solid white;
+    padding: 30px 0 15px;
+    margin: 0 30px;
+}
+
+.buttonBlock__button {
+    background: transparent;
+    border: 2px solid;
+    padding: 10px 20px;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 20px;
+    height: 100%;
+    font-weight: 600;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        font-weight: 800;
+    }
+}
+
+.buttonBlock__arrow {
+    padding: 0 20px 0 0;
+}
+
+.buttonBlock__button_blue {
+    border-color: #00bbe8;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #00bbe8;
+    }
+}
+
+.buttonBlock__button_yellow {
+    border-color: #ffcc00;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #ffcc00;
+    }
+}
+
+.buttonBlock__button_green {
+    border-color: #66c105;
+    &:hover+.buttonBlock__arrow .icon {
+        color: #66c105;
+    }
+}
